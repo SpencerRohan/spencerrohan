@@ -1,5 +1,5 @@
 <p>Renovations under way - please check back soon.<br>
--Spencer<br>
+-Spencer Rohan<br>
 10-17-2016<br></p>
 
 <p>SpencerMRohan@gmail.com<br>
