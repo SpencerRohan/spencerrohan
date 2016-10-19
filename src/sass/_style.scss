@@ -12,4 +12,21 @@
    height: 300px;
 }*/
 
-body { background-color: white; }
+html, 
+body { background-color: $retro-white;}
+
+.logo-container {
+	margin: auto;
+	text-align: center;
+}
+
+.logo {
+  font-family: "FilmotypeLaSalle";
+  color: $retro-red;
+  text-decoration: none;
+  font-weight: 100;
+  text-shadow: 1px 1px $retro-black;
+  margin-top: 75px;
+  margin-bottom: 60px;
+
+}
