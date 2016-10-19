@@ -9,17 +9,24 @@
 	<body>
 		<header>
 		</header>
-			<div class="construction-logo"></div>
-			<article class="message">
-				<p>Working on providing an in-depth website of my capabilities and information.</p>
-				<hr>
-				<p>SpencerMRohan@gmail.com<br>
-					269-599-3270<br>
-					<a href="#!">Resume</a>
-				</p>
-				<hr>
-				<p>-Spencer | 10-19-2016</p>
-			</article>
+		
+		<div class="row">
+		  <div class="col-sm-6">
+		    <div class="card card-block">
+		      <h3 class="card-title">Special title treatment</h3>
+		      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		      <a href="#" class="btn btn-primary">Go somewhere</a>
+		    </div>
+		  </div>
+		  <div class="col-sm-6">
+		    <div class="card card-block">
+		      <h3 class="card-title">Special title treatment</h3>
+		      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		      <a href="#" class="btn btn-primary">Go somewhere</a>
+		    </div>
+		  </div>
+		</div>		
+
 
 		<footer>
 	  </footer>

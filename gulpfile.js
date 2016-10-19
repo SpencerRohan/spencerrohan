@@ -24,7 +24,7 @@ var gulp      = require('gulp'),
     vendor: {
     	base: 'src/vendor',
    		// materialize: 'src/vendor/Materialize',
-      bootstrap: 'src/vendor/bootstrap-sass',
+      bootstrap: 'src/vendor/bootstrap',
    		jquery: 'src/vendor/jquery'
    	}
   },
@@ -54,7 +54,7 @@ gulp.task('js', function() {
     [
   		src.vendor.jquery+'/dist/jquery.js',
       // src.vendor.materialize+'/dist/js/materialize.js',
-      src.vendor.bootstrap+'/assets/javascripts/bootstrap.min.js',
+      src.vendor.bootstrap+'/dist/js/bootstrap.min.js',
       src.js.base+'/app.js',
     ], 
     dest.js
