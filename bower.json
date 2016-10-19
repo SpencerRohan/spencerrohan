@@ -15,5 +15,8 @@
     "src/vendor",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "~3.1.1"
+  }
 }
