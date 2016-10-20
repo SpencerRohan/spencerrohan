@@ -26,7 +26,33 @@ body { background-color: $retro-white;}
   text-decoration: none;
   font-weight: 100;
   text-shadow: 1px 1px $retro-black;
-  margin-top: 75px;
-  margin-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+.construction-icon {
+	text-align:center;
+	img { 
+		max-width: 300px; 
+		width:60%;
+	} 
+}
+
+.outer-circle {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+
+.inner-circle {
+	background-color: $retro-black;
+	background: url('http://image.shutterstock.com/z/stock-vector-girl-space-marine-science-fiction-retro-384586918.jpg') no-repeat center center fixed;
+  background-size: cover;
+	box-shadow: 0 0 0 5px $retro-white, 0 0 0 10px gray, 0 0 0 12px $retro-black;
+	height: 200px;
+	width: 200px;
+	border-radius: 99px;
+	margin: auto;
+	&:hover { box-shadow: 0 0 0 5px $retro-white, 0 0 0 10px $retro-red, 0 0 0 12px $retro-black; }
 }
