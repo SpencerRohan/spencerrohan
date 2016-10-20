@@ -12,8 +12,11 @@
    height: 300px;
 }*/
 
+
 html, 
 body { background-color: $retro-white;}
+
+
 
 .logo-container {
 	margin: auto;
@@ -73,6 +76,7 @@ body { background-color: $retro-white;}
   margin-bottom: 0%;
   height: 60%;
   text-align: center;
+  border-top: 5px solid $retro-black;
   transition: margin-top .5s cubic-bezier(.45,-0.46,.3,1.70);
   h5 {
   	font-family: "bariol_bold";
