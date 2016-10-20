@@ -14,27 +14,50 @@
 		</header>
 
 		<div class="container">
+		<!--
 			<div class="row">
 				<div class="col-lg-12 construction-icon">
 					<img alt="Under Construction - Check back soon!" src="assets/imgs/underconstruction.png">
 				</div>
 			</div>
+		-->
 
 			<div class="row">
 				<article class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle"></div>
+					<div class="inner-circle">
+						<span class="content">
+								<h5>About</h5>
+						</span>
+					</div>
 				</article>
 				<article class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle"></div>
+					<div class="inner-circle">
+						<span class="content">
+								<h5>Web Developer</h5>
+						</span>
+					</div>
 				</article>
 				<article class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle"></div>
+					<div class="inner-circle">
+						<span class="content">
+								<h5>Filmmaker</h5>
+						</span>
+					</div>
 				</article>
 				<article class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle"></div>
+					<div class="inner-circle">
+						<span class="content">
+								<h5>Projects & Random</h5>
+						</span>
+					</div>
 				</article>
 			</div>
 		</div>
+
+
+
+
+
 
 		<footer>
 	  </footer>

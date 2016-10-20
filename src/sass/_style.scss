@@ -43,16 +43,45 @@ body { background-color: $retro-white;}
 	margin-bottom: 25px;
 }
 
-
-
 .inner-circle {
 	background-color: $retro-black;
-	background: url('http://image.shutterstock.com/z/stock-vector-girl-space-marine-science-fiction-retro-384586918.jpg') no-repeat center center fixed;
+	background: url('http://i.huffpost.com/gen/242376/LICHT2.jpg') no-repeat center top;
   background-size: cover;
 	box-shadow: 0 0 0 5px $retro-white, 0 0 0 10px gray, 0 0 0 12px $retro-black;
 	height: 200px;
 	width: 200px;
 	border-radius: 99px;
 	margin: auto;
-	&:hover { box-shadow: 0 0 0 5px $retro-white, 0 0 0 10px $retro-red, 0 0 0 12px $retro-black; }
+	overflow: hidden;
+	transition: box-shadow 2s ease;
+	&:hover { 
+		cursor: pointer;
+		box-shadow: 0 0 0 5px $retro-white, 0 0 0 10px $retro-red, 0 0 0 12px $retro-black; 
+		.content {
+			margin-top: 55%;
+		}
+	}
 }
+
+.content {
+	color: $retro-white;
+  width: 100%;
+  background: rgba($retro-black, 0.45);
+  display: block;
+  margin-bottom: 0;
+  margin-top: 100%;
+  margin-bottom: 0%;
+  height: 60%;
+  text-align: center;
+  transition: margin-top .5s cubic-bezier(.45,-0.46,.3,1.70);
+  h5 {
+  	font-family: "bariol_bold";
+  	color: $retro-white;
+  }
+}
+
+
+
+
+
+
