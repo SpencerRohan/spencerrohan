@@ -14,43 +14,42 @@
 		</header>
 
 		<div class="container">
-		<!--
 			<div class="row">
-				<div class="col-lg-12 construction-icon">
-					<img alt="Under Construction - Check back soon!" src="assets/imgs/underconstruction.png">
-				</div>
-			</div>
-		-->
-
-			<div class="row">
-				<article class="col-lg-3 col-md-6 col-sm-12 outer-circle">
+				<label id="first" for="_1" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
 					<div class="inner-circle">
 						<span class="content">
 								<h5>About</h5>
 						</span>
 					</div>
-				</article>
-				<article class="col-lg-3 col-md-6 col-sm-12 outer-circle">
+					<input id="_1" type="checkbox"> 
+				</label>
+				
+				<label id="second" for="_2" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
 					<div class="inner-circle">
 						<span class="content">
 								<h5>Web Developer</h5>
 						</span>
 					</div>
-				</article>
-				<article class="col-lg-3 col-md-6 col-sm-12 outer-circle">
+					<input id="_2" type="checkbox"> 
+				</label>
+				
+				<label id="third" for="_3" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
 					<div class="inner-circle">
 						<span class="content">
 								<h5>Filmmaker</h5>
 						</span>
 					</div>
-				</article>
-				<article class="col-lg-3 col-md-6 col-sm-12 outer-circle">
+					<input id="_3" type="checkbox"> 
+				</label>
+				
+				<label id="fourth" for="_4" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
 					<div class="inner-circle">
 						<span class="content">
 								<h5>Projects & Random</h5>
 						</span>
 					</div>
-				</article>
+					<input id="_4" type="checkbox"> 
+				</label>
 			</div>
 		</div>
 

@@ -1,22 +1,5 @@
-/* body {
-   background: url(../imgs/back.jpg) no-repeat center center fixed;
-   background-size: cover;
- }
-
-
-.construction-logo {
-   background: url(../imgs/underconstruction.png) no-repeat center center;
-   background-size: cover;
-   width: 300px;
-   margin: auto;
-   height: 300px;
-}*/
-
-
 html, 
 body { background-color: $retro-white;}
-
-
 
 .logo-container {
 	margin: auto;
@@ -24,63 +7,58 @@ body { background-color: $retro-white;}
 }
 
 .logo {
-  font-family: "FilmotypeLaSalle";
   color: $retro-red;
-  text-decoration: none;
+  font-family: "FilmotypeLaSalle";
   font-weight: 100;
-  text-shadow: 1px 1px $retro-black;
-  margin-top: 50px;
   margin-bottom: 50px;
-}
-
-.construction-icon {
-	text-align:center;
-	img { 
-		max-width: 300px; 
-		width:60%;
-	} 
+  margin-top: 50px;
+  text-decoration: none;
+  text-shadow: 1px 1px $retro-black;
 }
 
 .outer-circle {
-	margin-top: 25px;
 	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.inner-circle + input{
+  display: none; /* hide the checkboxes */
+  opacity: 0;
+  position: absolute;
+  top: -999px;
+  left: -999px;
 }
 
 .inner-circle {
-	background-color: $retro-black;
 	background: url('http://i.huffpost.com/gen/242376/LICHT2.jpg') no-repeat center top;
+	background-color: $retro-black;
   background-size: cover;
+	border-radius: 99px;
 	box-shadow: 0 0 0 5px $retro-white, 0 0 0 10px gray, 0 0 0 12px $retro-black;
 	height: 200px;
-	width: 200px;
-	border-radius: 99px;
 	margin: auto;
 	overflow: hidden;
+	width: 200px;
 	transition: box-shadow 2s ease;
 	&:hover { 
-		cursor: pointer;
 		box-shadow: 0 0 0 5px $retro-white, 0 0 0 10px $retro-red, 0 0 0 12px $retro-black; 
-		.content {
-			margin-top: 55%;
-		}
+		cursor: pointer;
 	}
 }
 
 .content {
-	color: $retro-white;
-  width: 100%;
   background: rgba($retro-black, 0.45);
-  display: block;
-  margin-bottom: 0;
-  margin-top: 100%;
-  margin-bottom: 0%;
-  height: 60%;
-  text-align: center;
   border-top: 5px solid $retro-black;
-  transition: margin-top .5s cubic-bezier(.45,-0.46,.3,1.70);
+	color: $retro-white;
+  display: block;
+  height: 60%;
+  margin-bottom: 0%;
+  margin-top: 55%;
+  text-align: center;
+  width: 100%;
   h5 {
-  	font-family: "bariol_bold";
   	color: $retro-white;
+  	font-family: "bariol_bold";
   }
 }
 
