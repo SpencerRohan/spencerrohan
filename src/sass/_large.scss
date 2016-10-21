@@ -16,5 +16,44 @@
 	  margin-top: 100%;
 	  transition: margin-top .5s cubic-bezier(.45,-0.46,.3,1.70);
 	}
+
+	.outer-circle.active {
+		z-index:10;
+		.inner-circle {
+			box-shadow: 0 0 0 5px $retro-white, 0 0 0 10px $retro-red, 0 0 0 12px $retro-black;
+			.content {
+				margin-top: 55%;
+			}
+		}
+	}
+
+	#second.hidden,
+	#second.active {
+		animation:slide-1 .5s cubic-bezier(.45,-0.46,.3,1) forwards;
+	}
+
+	#third.hidden,
+	#third.active  {
+		animation:slide-2 .5s cubic-bezier(.45,-0.46,.3,1) forwards;
+	}
+
+	#fourth.hidden,
+	#fourth.active  {
+		animation:slide-3 .5s cubic-bezier(.45,-0.46,.3,1) forwards;
+	}
+
+	#second.ready {
+		animation:slideback-1 .5s cubic-bezier(.45,0,.3,1.50) forwards;
+
+	}
+
+	#third.ready {
+		animation:slideback-2 .5s cubic-bezier(.45,0,.3,1.50) forwards;
+	}
+
+	#fourth.ready {
+		animation:slideback-3 .5s cubic-bezier(.45,0,.3,1.50) forwards;
+
+	}
 	
 }
