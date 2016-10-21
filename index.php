@@ -17,6 +17,13 @@
 
 		<div class="container">
 			<div class="row">
+				<article class="note col-sm-12">
+					Site Under Maintenance... Please check back soon! -Spencer (10.20.16)
+					<br>
+					 <a href="tel:2695993279">269-599-3279</a> | <a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_top">SpencerMRohan@gmail.com</a> | <a href="/assets/docs/spencerrohanresume.pdf" target="_blank">Resume</a>
+				</article>
+			</div>
+			<div class="row">
 				<label id="first" for="_1" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
 					<div class="inner-circle" style="background-image:url('<?php echo $url.$image[0] ?>');">
 						<span class="content">

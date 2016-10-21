@@ -62,10 +62,11 @@ body { background-color: $retro-white;}
   }
 }
 
-label {
-  @extends article;
+.note {
+  color: $retro-black;
+  font-family: 'bariol_bold';
+  text-align: center;
 }
-
 
 
 
