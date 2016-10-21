@@ -12,11 +12,13 @@
 				<h1 class="logo">Spencer Rohan</h1>
 			</div>
 		</header>
+		
+		<?php @include 'includes/backgrounds.php' ?>
 
 		<div class="container">
 			<div class="row">
 				<label id="first" for="_1" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle">
+					<div class="inner-circle" style="background-image:url('<?php echo $url.$image[0] ?>');">
 						<span class="content">
 								<h5>About</h5>
 						</span>
@@ -25,7 +27,7 @@
 				</label>
 				
 				<label id="second" for="_2" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle">
+					<div class="inner-circle" style="background-image:url('<?php echo $url.$image[1] ?>');">
 						<span class="content">
 								<h5>Web Developer</h5>
 						</span>
@@ -34,7 +36,7 @@
 				</label>
 				
 				<label id="third" for="_3" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle">
+					<div class="inner-circle" style="background-image:url('<?php echo $url.$image[2] ?>');">
 						<span class="content">
 								<h5>Filmmaker</h5>
 						</span>
@@ -43,7 +45,7 @@
 				</label>
 				
 				<label id="fourth" for="_4" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle">
+					<div class="inner-circle" style="background-image:url('<?php echo $url.$image[3] ?>');">
 						<span class="content">
 								<h5>Projects & Random</h5>
 						</span>
