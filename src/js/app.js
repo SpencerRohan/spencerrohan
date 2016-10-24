@@ -4,6 +4,9 @@ $( document ).ready(function() {
     			$parent = $(this).parent();
 
     	$('.outer-circle').toggleClass('ready', $(this).is(':not(:checked)'));
+    	setTimeout(function(){
+     		$('.outer-circle').removeClass('ready');  
+   		},500);
     	$siblings.children('input').prop( "checked", false );
     	$siblings.removeClass('active', $(this).is(':checked'));
     	$parent.removeClass('hidden', $(this).is(':checked'));

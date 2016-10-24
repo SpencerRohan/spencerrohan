@@ -7,13 +7,13 @@
 
 	.inner-circle {
 		&:hover { 
-			.content {
+			.content-header {
 				margin-top: 55%;
 			}
 		}
 	}
 
-	.content {
+	.content-header {
 	  margin-top: 100%;
 	  transition: margin-top .5s cubic-bezier(.45,-0.46,.3,1.70);
 	}

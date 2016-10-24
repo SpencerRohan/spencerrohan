@@ -14,61 +14,71 @@
 		</header>
 		
 		<?php @include 'includes/backgrounds.php' ?>
-
-		<div class="container">
-			<div class="row">
-				<article class="note col-sm-12">
-					Site Under Maintenance... Please check back soon! -Spencer (10.20.16)
-					<br>
-					 <a href="tel:2695993279">269-599-3279</a> | <a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_top">SpencerMRohan@gmail.com</a> | <a href="/assets/docs/spencerrohanresume.pdf" target="_blank">Resume</a>
-				</article>
+		<main>
+			<div class="container">
+				<div class="row">
+					<article class="note col-sm-12">
+						Site Under Maintenance... Please check back soon! -Spencer (10.20.16)
+						<br>
+						 <a href="tel:2695993279">269-599-3279</a> | <a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_top">SpencerMRohan@gmail.com</a> | <a href="/assets/docs/spencerrohanresume.pdf" target="_blank">Resume</a>
+					</article>
+				</div>
+				<div class="row">
+					
+					<label id="first" for="about" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
+						<div class="inner-circle" style="background-image:url('<?php echo $url.$image[0] ?>');">
+							<span class="content-header">
+									<h5>About</h5>
+							</span>
+						</div>
+						<input id="about" type="checkbox"> 
+					</label>
+					
+					<label id="second" for="web" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
+						<div class="inner-circle" style="background-image:url('<?php echo $url.$image[1] ?>');">
+							<span class="content-header">
+									<h5>Web Developer</h5>
+							</span>
+						</div>
+						<input id="web" type="checkbox"> 
+					</label>
+					
+					<label id="third" for="film" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
+						<div class="inner-circle" style="background-image:url('<?php echo $url.$image[2] ?>');">
+							<span class="content-header">
+									<h5>Filmmaker</h5>
+							</span>
+						</div>
+						<input id="film" type="checkbox"> 
+					</label>
+					
+					<label id="fourth" for="projects" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
+						<div class="inner-circle" style="background-image:url('<?php echo $url.$image[3] ?>');">
+							<span class="content-header">
+									<h5>Projects & Random</h5>
+							</span>
+						</div>
+						<input id="projects" type="checkbox"> 
+					</label>
+				</div>
+				<div class="row">
+					<div class="content-box">
+						<div class="col-lg-9 push-lg-3 content">
+							<article id="content-about"class="about">about</article>
+							<article id="content-web" class="web">web</article>
+							<article id="content-film" class="film">film</article>
+							<article id="content-projects"class="projects">projects</article>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="row">
-				<label id="first" for="_1" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle" style="background-image:url('<?php echo $url.$image[0] ?>');">
-						<span class="content">
-								<h5>About</h5>
-						</span>
-					</div>
-					<input id="_1" type="checkbox"> 
-				</label>
-				
-				<label id="second" for="_2" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle" style="background-image:url('<?php echo $url.$image[1] ?>');">
-						<span class="content">
-								<h5>Web Developer</h5>
-						</span>
-					</div>
-					<input id="_2" type="checkbox"> 
-				</label>
-				
-				<label id="third" for="_3" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle" style="background-image:url('<?php echo $url.$image[2] ?>');">
-						<span class="content">
-								<h5>Filmmaker</h5>
-						</span>
-					</div>
-					<input id="_3" type="checkbox"> 
-				</label>
-				
-				<label id="fourth" for="_4" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle" style="background-image:url('<?php echo $url.$image[3] ?>');">
-						<span class="content">
-								<h5>Projects & Random</h5>
-						</span>
-					</div>
-					<input id="_4" type="checkbox"> 
-				</label>
-			</div>
-		</div>
+		</main>
 
 
 
 
 
-
-		<footer>
-	  </footer>
+		<footer>Footer Here!</footer>
 		<script type="text/javascript" src="assets/js/app.js"></script>
 	</body>
 </html>
