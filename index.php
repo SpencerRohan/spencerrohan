@@ -64,7 +64,7 @@
 				<div class="row">
 					<div class="col-lg-9 push-lg-3 content-box">
 						<div class="content">
-							<article id="content-about" class="about">about
+							<article id="content-about" class="content-details">about
 								lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -82,9 +82,9 @@
 
 
 							</article>
-							<article id="content-web" class="web">web</article>
-							<article id="content-film" class="film">film</article>
-							<article id="content-projects" class="projects">projects</article>
+							<article id="content-web" class="content-details">web</article>
+							<article id="content-film" class="content-details">film</article>
+							<article id="content-projects" class="content-details">projects</article>
 						</div>
 					</div>
 				</div>
