@@ -16,13 +16,13 @@
 		<?php @include 'includes/backgrounds.php' ?>
 		<main>
 			<div class="container">
-				<div class="row">
+<!-- 				<div class="row">
 					<article class="note col-sm-12">
 						Site Under Maintenance... Please check back soon! -Spencer (10.20.16)
 						<br>
 						 <a href="tel:2695993279">269-599-3279</a> | <a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_top">SpencerMRohan@gmail.com</a> | <a href="/assets/docs/spencerrohanresume.pdf" target="_blank">Resume</a>
 					</article>
-				</div>
+				</div> -->
 				<div class="row">
 					
 					<label id="first" for="about" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
@@ -62,12 +62,29 @@
 					</label>
 				</div>
 				<div class="row">
-					<div class="content-box">
-						<div class="col-lg-9 push-lg-3 content">
-							<article id="content-about"class="about">about</article>
+					<div class="col-lg-9 push-lg-3 content-box">
+						<div class="content">
+							<article id="content-about" class="about">about
+								lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+							</article>
 							<article id="content-web" class="web">web</article>
 							<article id="content-film" class="film">film</article>
-							<article id="content-projects"class="projects">projects</article>
+							<article id="content-projects" class="projects">projects</article>
 						</div>
 					</div>
 				</div>

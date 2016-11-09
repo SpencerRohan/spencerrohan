@@ -17,14 +17,36 @@
 	  transition: margin-top .5s cubic-bezier(.45,-0.46,.3,1.70);
 	}
 
-	.content {
-		/*max-height:0px;
-		height: 1000px;
-		overflow: hidden;*/
-		height: 200px;
-		background-color: blue;
+	.content-box {
+		margin-top: -237px;
+		overflow: hidden;
+		height: 10px;
+		transition: height .5s ease;
+		.content {
+			transform: translateY(-104.5%);
+			box-shadow: 0 0 0 5px $retro-white, 0 0 0 6px #d0d0d0, 0 0 0 7px $retro-white, 0 0 0 8px #d0d0d0, 0 0 0 9px $retro-white, 0 0 0 11px $retro-black;
+		}
+  
 	}
 
+	.content-box.closed {
+		height: 10px;
+		.content {
+			transform: translateY(-104.5%);
+			animation:close-content .25s cubic-bezier(0, 1, 0.5, 1) forwards;
+		}
+	}
+
+	.content-box.open {
+		height: 500px;
+		.content {
+			animation:open-content 1.5s .5s cubic-bezier(0, 1, 0.5, 1) forwards;
+		}
+	}
+
+	.outer-circle {
+		z-index: 5;
+	}
 
 	.outer-circle.active {
 		z-index:10;

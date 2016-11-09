@@ -1,12 +1,23 @@
 $( document ).ready(function() {
+    
     $('.outer-circle input').on('change', function(){
-    	var $siblings = $(this).parent().siblings(),
-    			$parent = $(this).parent();
-
+        $('.content-box').toggleClass('open', $(this).is(':checked'));
+        $('.content-box').toggleClass('closed', $(this).is(':not(:checked)'));
     	$('.outer-circle').toggleClass('ready', $(this).is(':not(:checked)'));
-    	setTimeout(function(){
+        
+        var $siblings = $(this).parent().siblings(),
+            $parent = $(this).parent(),
+            contentID = $(this).attr("id");
+
+
+        $('.content').removeClass('about film web projects test');
+        $('.content').toggleClass(contentID, $(this).is(':checked'));
+
+        setTimeout(function(){
      		$('.outer-circle').removeClass('ready');  
+            $('.content-box').removeClass('closed');
    		},500);
+
     	$siblings.children('input').prop( "checked", false );
     	$siblings.removeClass('active', $(this).is(':checked'));
     	$parent.removeClass('hidden', $(this).is(':checked'));
