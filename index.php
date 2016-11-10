@@ -64,22 +64,19 @@
 				<div class="row">
 					<div class="col-lg-9 push-lg-3 content-box">
 						<div class="content">
-							<article id="content-about" class="content-details">about
-								lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							<article id="content-about" class="content-details">about 
 
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									<i class="fa fa-linkedin"></i> Linkedin
+									<i class="fa fa-twitter"></i> Twitter
+									<i class="fa fa-github-alt"></i> Github
+									<i class="fa fa-google-plus"></i> Google
+									<i class="fa fa-vimeo"></i> Vimeo
+									<i class="fa fa-imdb"></i> IMDB
 
-
+									<i class="fa fa-envelope"></i> Email  <span class="i-bariol">
+										∑ é â  ÿ   É  …  ‘    ê ä &loz; &#11048; 
+									</span>
+									<i class="fa fa-phone"></i> Phone 
 
 							</article>
 							<article id="content-web" class="content-details">web</article>
