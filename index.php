@@ -15,61 +15,109 @@
 		</header>
 		
 		<?php @include 'includes/backgrounds.php' ?>
+		<main>
+			<div class="container">
+				<div id="nav-buttons" class="row">
+					<label id="first" for="about" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
+						<div class="inner-circle" style="background-image:url('<?php echo $url.$image[0] ?>');">
+							<span class="content-header">
+									<h5>About</h5>
+							</span>
+						</div>
+						<input id="about" type="checkbox"> 
+					</label>
+					
+					
+					<label id="second" for="film" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
+						<div class="inner-circle" style="background-image:url('<?php echo $url.$image[2] ?>');">
+							<span class="content-header">
+									<h5>Filmmaker</h5>
+							</span>
+						</div>
+						<input id="film" type="checkbox"> 
+					</label>
+					
+					<label id="third" for="web" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
+						<div class="inner-circle" style="background-image:url('<?php echo $url.$image[1] ?>');">
+							<span class="content-header">
+									<h5>Web Developer</h5>
+							</span>
+						</div>
+						<input id="web" type="checkbox"> 
+					</label>
 
-		<div class="container">
-			<div class="row">
-				<article class="note col-sm-12">
-					Site Under Maintenance... Please check back soon! -Spencer (10.20.16)
-					<br>
-					 <a href="tel:2695993279">269-599-3279</a> | <a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_top">SpencerMRohan@gmail.com</a> | <a href="/assets/docs/spencerrohanresume.pdf" target="_blank">Resume</a>
-				</article>
+					<label id="fourth" for="projects" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
+						<div class="inner-circle" style="background-image:url('<?php echo $url.$image[3] ?>');">
+							<span class="content-header">
+									<h5>Projects & Random</h5>
+							</span>
+						</div>
+						<input id="projects" type="checkbox"> 
+					</label>
+				</div>
+
+
+				<div class="row">
+					<div class="col-lg-9 push-lg-3 content-box">
+						<div class="content">
+							<article id="content-about" class="content-details">
+								<p>Filmmaker. Web Developer. Tinkerer.</p>
+
+								<p>Big believer in good design and the Midwestern work ethic. 10+ years of professional filmmaking turned friendly neighborhood web slinger.  Always looking for that next project, experience, and exciting story.</p>
+
+								<p>Currently looking for a new place to call 'HOME'.  Well work home.  This web head needs a developer job, <em><strong>ya got one?</strong></em></p>
+
+								<p>Feel free to reach out anytime, enjoy!<br>
+								-Spencer</p>
+
+								<ul>
+									<li><a href="https://www.linkedin.com/in/spencerrohan" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_blank"><span class="i-bariol">é</span>  SpencerMRohan@gmail.com</a></li>
+									<li><a href="tel:2695993279" target="_blank"><i class="fa fa-phone"></i> 269-599-3279</a></li>
+									<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank"> Resume</a>
+								</ul>
+							</article>
+							
+							<article id="content-web" class="content-details">WEB Details Coming Soon!
+								<ul>
+									<li><a href="https://www.linkedin.com/in/spencerrohan" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="https://github.com/spencerrohan" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+									<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank">Resume</a>
+								</ul>
+							</article>
+							
+							<article id="content-film" class="content-details">FILM Details Coming Soon!
+								<ul>
+									<li><a href="http://vimeo.com/spencerrohan" target="_blank"><i class="fa fa-vimeo"></i></a></li>
+									<li><a href="http://www.imdb.com/name/nm1804974/" target="_blank"><i class="fa fa-imdb"></i></a></li>
+								</ul>
+							</article>
+
+							<article id="content-projects" class="content-details">Details Coming Soon!</article>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="row">
-				<label id="first" for="_1" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle" style="background-image:url('<?php echo $url.$image[0] ?>');">
-						<span class="content">
-								<h5>About</h5>
-						</span>
-					</div>
-					<input id="_1" type="checkbox"> 
-				</label>
-				
-				<label id="second" for="_2" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle" style="background-image:url('<?php echo $url.$image[1] ?>');">
-						<span class="content">
-								<h5>Web Developer</h5>
-						</span>
-					</div>
-					<input id="_2" type="checkbox"> 
-				</label>
-				
-				<label id="third" for="_3" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle" style="background-image:url('<?php echo $url.$image[2] ?>');">
-						<span class="content">
-								<h5>Filmmaker</h5>
-						</span>
-					</div>
-					<input id="_3" type="checkbox"> 
-				</label>
-				
-				<label id="fourth" for="_4" class="col-lg-3 col-md-6 col-sm-12 outer-circle">
-					<div class="inner-circle" style="background-image:url('<?php echo $url.$image[3] ?>');">
-						<span class="content">
-								<h5>Projects & Random</h5>
-						</span>
-					</div>
-					<input id="_4" type="checkbox"> 
-				</label>
-			</div>
-		</div>
-
-
-
-
-
+		</main>
 
 		<footer>
-	  </footer>
+			<?php echo $artist_info; ?>
+			<ul>
+				<li><a href="https://www.linkedin.com/in/spencerrohan" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://twitter.com/spencerrohan" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://github.com/spencerrohan" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+				<li><a href="https://plus.google.com/+SpencerRohan" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="http://vimeo.com/spencerrohan" target="_blank"><i class="fa fa-vimeo"></i></a></li>
+				<li><a href="http://www.imdb.com/name/nm1804974/" target="_blank"><i class="fa fa-imdb"></i></a></li>
+				<li><a href="https://www.instagram.com/criscocountyjr/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_blank"><i class="fa fa-envelope"></i> SpencerMRohan@gmail.com</a></li>
+				<li><a href="tel:2695993279" target="_blank"><i class="fa fa-phone"></i> 269-599-3279</a></li>
+				<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank"> Resume </a>
+				<li><a href="#!"> Site Map </a>
+			</ul>
+
+			  <span class="i-bariol">é â  ÿ  É  …  ‘ ê ä</span> 
+		</footer>
 		<script type="text/javascript" src="assets/js/app.js"></script>
 	</body>
 </html>
