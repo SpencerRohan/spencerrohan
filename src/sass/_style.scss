@@ -1,6 +1,8 @@
 html, 
 body { background-color: $retro-white;}
 
+.i-bariol { font-family: "bariol_icons"; font-size: 50px;}
+
 .logo-container {
 	margin: auto;
 	text-align: center;
@@ -33,7 +35,7 @@ body { background-color: $retro-white;}
 	background: url('http://i.huffpost.com/gen/242376/LICHT2.jpg') no-repeat center top;
 	background-color: $retro-black;
   background-size: cover;
-	border-radius: 99px;
+	border-radius: 50%;
 	box-shadow: 0 0 0 5px $retro-white, 0 0 0 10px gray, 0 0 0 12px $retro-black;
 	height: 200px;
 	margin: auto;
@@ -46,7 +48,7 @@ body { background-color: $retro-white;}
 	}
 }
 
-.content {
+.content-header {
   background: rgba($retro-black, 0.45);
   border-top: 5px solid $retro-black;
 	color: $retro-white;
