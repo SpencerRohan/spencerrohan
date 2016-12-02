@@ -9,6 +9,6 @@
 
 	$group = array_rand($backgrounds, 1);
 	$image = $backgrounds[$group];
-	$artist_url = $artist[$group];
+	$artist_info = $artist[$group];
 	$url = '/assets/imgs/backgrounds/'.$group.'/';
 ?>
