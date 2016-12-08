@@ -62,7 +62,7 @@
 							<article id="content-about" class="content-details">
 								<p>Filmmaker. Web Developer. Tinkerer.</p>
 
-								<p>Big believer in good design and the Midwestern work ethic. 10+ years of professional filmmaking turned friendly neighborhood web slinger.  Always looking for that next project, experience, and exciting story.</p>
+								<p>Big believer in good design and the Midwestern work ethic. 10+ years of professional filmmaking and your friendly neighborhood web slinger.  Always looking for that next project, experience, and exciting story.</p>
 
 								<p>Currently looking for a new place to call 'HOME'.  Well work home.  This web head needs a developer job, <em><strong>ya got one?</strong></em></p>
 
@@ -77,7 +77,7 @@
 								</ul>
 							</article>
 							
-							<article id="content-web" class="content-details">WEB Details Coming Soon!
+							<article id="content-web" class="content-details">Web Developer
 								<ul>
 									<li><a href="https://www.linkedin.com/in/spencerrohan" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 									<li><a href="https://github.com/spencerrohan" target="_blank"><i class="fa fa-github-alt"></i></a></li>
