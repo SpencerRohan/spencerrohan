@@ -2,7 +2,8 @@
 <html>
 	<head>
 		<title>Spencer M. Rohan</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Looking for the best web developer slash filmmaker in the Chicago area? THE GALAXY?! Well tough you found Spencer M. Rohan's website first -- so deal with it.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="assets/css/app.css">	
 		<?php include 'includes/seo.php' ?>
 	</head>
@@ -60,6 +61,9 @@
 					<div class="col-lg-9 push-lg-3 content-box">
 						<div class="content">
 							<article id="content-about" class="content-details">
+								<div class="content-banner" style="background-image:url('<?php echo $url.$image[0] ?>');">
+									<h5>About</h5>
+								</div>
 								<p>Filmmaker. Web Developer. Tinkerer.</p>
 
 								<p>Big believer in good design and the Midwestern work ethic. 10+ years of professional filmmaking and your friendly neighborhood web slinger.  Always looking for that next project, experience, and exciting story.</p>
@@ -77,7 +81,20 @@
 								</ul>
 							</article>
 							
-							<article id="content-web" class="content-details">Web Developer
+							<article id="content-film" class="content-details">
+								<div class="content-banner" style="background-image:url('<?php echo $url.$image[1] ?>');">
+									<h5>Filmmaker</h5>
+								</div>
+								<ul>
+									<li><a href="http://vimeo.com/spencerrohan" target="_blank"><i class="fa fa-vimeo"></i></a></li>
+									<li><a href="http://www.imdb.com/name/nm1804974/" target="_blank"><i class="fa fa-imdb"></i></a></li>
+								</ul>
+							</article>
+
+							<article id="content-web" class="content-details">
+								<div class="content-banner" style="background-image:url('<?php echo $url.$image[2] ?>');">
+									<h5>Web Developer</h5>
+								</div>
 								<ul>
 									<li><a href="https://www.linkedin.com/in/spencerrohan" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 									<li><a href="https://github.com/spencerrohan" target="_blank"><i class="fa fa-github-alt"></i></a></li>
@@ -85,14 +102,12 @@
 								</ul>
 							</article>
 							
-							<article id="content-film" class="content-details">FILM Details Coming Soon!
-								<ul>
-									<li><a href="http://vimeo.com/spencerrohan" target="_blank"><i class="fa fa-vimeo"></i></a></li>
-									<li><a href="http://www.imdb.com/name/nm1804974/" target="_blank"><i class="fa fa-imdb"></i></a></li>
-								</ul>
-							</article>
 
-							<article id="content-projects" class="content-details">Details Coming Soon!</article>
+							<article id="content-projects" class="content-details">
+								<div class="content-banner" style="background-image:url('<?php echo $url.$image[3] ?>');">
+									<h5>Projects & Random</h5>
+								</div>
+							</article>
 						</div>
 					</div>
 				</div>
