@@ -93,6 +93,21 @@ body { background-color: $retro-white; min-height: 100%; }
   text-align: center;
 }
 
+.icon-list {
+  list-style: none;
+  a { 
+    color: $retro-black;
+  }
+  li { display: inline-block; }
+
+}
+
+ /*   display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;*/
+
 
 
 

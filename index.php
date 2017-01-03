@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="assets/css/app.css">	
 		<?php include 'includes/seo.php' ?>
+		<?php include 'includes/social.php' ?>
 	</head>
 	<body>
 		<header>
@@ -66,18 +67,35 @@
 								</div>
 								<p>Filmmaker. Web Developer. Tinkerer.</p>
 
-								<p>Big believer in good design and the Midwestern work ethic. 10+ years of professional filmmaking and your friendly neighborhood web slinger.  Always looking for that next project, experience, and exciting story.</p>
+								<p>
+									
+								</p>
 
-								<p>Currently looking for a new place to call 'HOME'.  Well work home.  This web head needs a developer job, <em><strong>ya got one?</strong></em></p>
+								<p>Currently looking for a new place to call 'HOME'. This web head needs a developer job, <em><strong>ya got one?</strong></em></p>
 
 								<p>Feel free to reach out anytime, enjoy!<br>
 								-Spencer</p>
+								
+
+								<ul class="icon-list">
+									<li>
+										<a href="https://www.linkedin.com/in/spencerrohan" target="_blank" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">
+											<i class="fa fa-linkedin"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/spencerrohan" target="_blank" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">
+											<i class="fa fa-twitter"></i>
+										</a>
+									</li>
+								</ul>
 
 								<ul>
-									<li><a href="https://www.linkedin.com/in/spencerrohan" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_blank"><span class="i-bariol">é</span>  SpencerMRohan@gmail.com</a></li>
-									<li><a href="tel:2695993279" target="_blank"><i class="fa fa-phone"></i> 269-599-3279</a></li>
-									<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank"> Resume</a>
+
+									<li><a href="https://www.linkedin.com/in/spencerrohan" target="_blank"><i class="fa fa-linkedin social-icons"></i></a></li>
+									<li><a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_blank"><span class="i-bariol social-icons">é</span>SpencerMRohan@gmail.com</a></li>
+									<li><a href="tel:2695993279" target="_blank"><i class="fa fa-phone social-icons"></i> 269-599-3279</a></li>
+									<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank">Resume</a>
 								</ul>
 							</article>
 							
@@ -116,16 +134,25 @@
 
 		<footer>
 			<?php echo $artist_info; ?>
-			<ul>
-				<li><a href="https://www.linkedin.com/in/spencerrohan" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-				<li><a href="https://twitter.com/spencerrohan" target="_blank"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="https://github.com/spencerrohan" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-				<li><a href="https://plus.google.com/+SpencerRohan" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-				<li><a href="http://vimeo.com/spencerrohan" target="_blank"><i class="fa fa-vimeo"></i></a></li>
-				<li><a href="http://www.imdb.com/name/nm1804974/" target="_blank"><i class="fa fa-imdb"></i></a></li>
-				<li><a href="https://www.instagram.com/criscocountyjr/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-				<li><a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_blank"><i class="fa fa-envelope"></i> SpencerMRohan@gmail.com</a></li>
-				<li><a href="tel:2695993279" target="_blank"><i class="fa fa-phone"></i> 269-599-3279</a></li>
+			<ul class="icon-list">
+				<?php $social(['twitter']); ?>
+			</ul>
+			
+
+			<ul class="icon-list">
+				<!-- Email -->
+				<li>
+					<a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_blank" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">
+						<i class="fa fa-envelope"></i> SpencerMRohan@gmail.com
+					</a>
+				</li>
+				<!-- Telephone -->
+				<li>
+					<a href="tel:2695993279" target="_blank" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">
+						<i class="fa fa-phone"></i> 269-599-3279
+					</a>
+				</li>
+
 				<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank"> Resume </a>
 				<li><a href="#!"> Site Map </a>
 			</ul>
