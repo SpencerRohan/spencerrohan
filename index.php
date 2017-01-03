@@ -78,21 +78,10 @@
 								
 
 								<ul class="icon-list">
-									<li>
-										<a href="https://www.linkedin.com/in/spencerrohan" target="_blank" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">
-											<i class="fa fa-linkedin"></i>
-										</a>
-									</li>
-									<li>
-										<a href="https://twitter.com/spencerrohan" target="_blank" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">
-											<i class="fa fa-twitter"></i>
-										</a>
-									</li>
+									<?php $social(['linkedin', 'imdb']); ?>
 								</ul>
 
-								<ul>
-
-									<li><a href="https://www.linkedin.com/in/spencerrohan" target="_blank"><i class="fa fa-linkedin social-icons"></i></a></li>
+								<ul class="icon-list">
 									<li><a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_blank"><span class="i-bariol social-icons">é</span>SpencerMRohan@gmail.com</a></li>
 									<li><a href="tel:2695993279" target="_blank"><i class="fa fa-phone social-icons"></i> 269-599-3279</a></li>
 									<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank">Resume</a>
@@ -103,9 +92,8 @@
 								<div class="content-banner" style="background-image:url('<?php echo $url.$image[1] ?>');">
 									<h5>Filmmaker</h5>
 								</div>
-								<ul>
-									<li><a href="http://vimeo.com/spencerrohan" target="_blank"><i class="fa fa-vimeo"></i></a></li>
-									<li><a href="http://www.imdb.com/name/nm1804974/" target="_blank"><i class="fa fa-imdb"></i></a></li>
+								<ul class="icon-list">
+									<?php $social(['imdb', 'vimeo']); ?>
 								</ul>
 							</article>
 
@@ -113,9 +101,8 @@
 								<div class="content-banner" style="background-image:url('<?php echo $url.$image[2] ?>');">
 									<h5>Web Developer</h5>
 								</div>
-								<ul>
-									<li><a href="https://www.linkedin.com/in/spencerrohan" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="https://github.com/spencerrohan" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+								<ul class="icon-list">
+									<?php $social(['linkedin', 'github']); ?>
 									<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank">Resume</a>
 								</ul>
 							</article>
@@ -125,6 +112,7 @@
 								<div class="content-banner" style="background-image:url('<?php echo $url.$image[3] ?>');">
 									<h5>Projects & Random</h5>
 								</div>
+								<p>Coming Soon</p>
 							</article>
 						</div>
 					</div>
@@ -135,7 +123,7 @@
 		<footer>
 			<?php echo $artist_info; ?>
 			<ul class="icon-list">
-				<?php $social(['twitter']); ?>
+				<?php $social(['all']); ?>
 			</ul>
 			
 
