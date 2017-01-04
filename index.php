@@ -65,19 +65,21 @@
 								<div class="content-banner" style="background-image:url('<?php echo $url.$image[0] ?>');">
 									<h5>About</h5>
 								</div>
-								<p>Digital playground for Time Magazine's "2006 Person of the Year", Spencer Rohan.  10+ years of filmmaking experience. Neighborhood web slinger. Professional Air Guitarist. Futurist, feminist, and recovering pop culture junkie.  As the <a href="https://en.wikipedia.org/wiki/Flying_Spaghetti_Monster" target="_blank" alt="Flying Spaghetti Monster">FSM</a> would put it...</p>
-								<p class="text-center">Filmmaker ▰ Web Developer ▰ Tinkerer</p>
-								<hr>
-								<ul class="icon-list text-center">
-									<?php $social(['all']); ?>
-								</ul>
-								<hr>
-								<div class="col-lg-6 push-lg-3">
-									<blockquote class="blockquote border-none text-center">
-								  	<p class="mb-0" style=" margin-bottom: 0; font-family:'FilmotypeLaSalle'">"I love this young man with all my heart--he keeps me aware with the messages and pictures he sends me---low battery. ~Love"</p>
-								  	<div class="blockquote-footer">Patricia Rohan | Grandma</div>
-									</blockquote>
-								</div>
+								<section class="content-details">
+									<p>Digital playground for Time Magazine's "2006 Person of the Year", Spencer Rohan.  10+ years of filmmaking experience. Neighborhood web slinger. Professional Air Guitarist. Futurist, feminist, and recovering pop culture junkie.  As the <a href="https://en.wikipedia.org/wiki/Flying_Spaghetti_Monster" target="_blank" alt="Flying Spaghetti Monster">FSM</a> would put it...</p>
+									<p class="text-center">Filmmaker ▰ Web Developer ▰ Tinkerer</p>
+									<hr>
+									<ul class="icon-list text-center">
+										<?php $social(['all']); ?>
+									</ul>
+									<hr>
+									<div class="col-lg-8 push-lg-2">
+										<blockquote class="blockquote border-none text-center">
+									  	<p class="mb-0" style=" margin-bottom: 0; font-family:'FilmotypeLaSalle'">"I love this young man with all my heart--he keeps me aware with the messages and pictures he sends me---low battery. ~Love"</p>
+									  	<div class="blockquote-footer">Patricia Rohan | Grandma</div>
+										</blockquote>
+									</div>
+								</section>
 
 								
 								
@@ -128,7 +130,8 @@
 					<div class="col-lg-12">
 						
 						<span class="contact-info">
-						SpencerMRohan@gmail.com ▰ 269-599-3279
+						SpencerMRohan@gmail.com<br>
+						Resume ▰ Site Map
 						</span><span class="artist-info"><i class="fa fa-paint-brush fa-1" aria-hidden="true"></i> <?php echo $artist_info; ?></span>
 					</div>
 				</div>

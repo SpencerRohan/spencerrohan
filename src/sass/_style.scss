@@ -84,7 +84,10 @@ body { background-color: $retro-white; min-height: 100%; font-family: "bariol";}
     color: #fdfef4;
     text-shadow: $retro-black 4px 4px;
   }
+}
 
+.content-details {
+  padding: 5px;
 }
 
 .note {
@@ -103,7 +106,7 @@ body { background-color: $retro-white; min-height: 100%; font-family: "bariol";}
 }
 
 .artist-info {
-  font-size: .6rem;
+  font-size: .8rem;
   float: right;
   font-family: "FilmotypeLaSalle";
   font-weight:300;
@@ -111,7 +114,7 @@ body { background-color: $retro-white; min-height: 100%; font-family: "bariol";}
 }
 
 .contact-info {
-  font-size: .6rem;
+  font-size: .8rem;
   float:left;
   color: $retro-gray;
   clear: both;
