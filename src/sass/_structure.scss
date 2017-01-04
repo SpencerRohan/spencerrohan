@@ -16,3 +16,32 @@ label.outer-circle { display: block; }
 .back-retro-white {
 	background-color: $retro-white;
 }
+
+.btn{
+	    border: 2px solid transparent;
+}
+
+hr { margin-left: 5rem; margin-right: 5rem; }
+
+.text-center {
+	text-align: center;
+}
+
+.border-none { border:none; }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active {
+  color: $retro-white;
+  background-color: $retro-red;
+  border-color: $retro-red; 
+}
+
+.btn-outline-primary{
+	border-color: $retro-red;
+}
