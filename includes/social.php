@@ -1,23 +1,22 @@
 <?php
-
 	$social = function($icons){
 		$social_links = [
-			'twitter' => 'https://twitter.com/spencerrohan',
-			'linkedin' => 'https://www.linkedin.com/in/spencerrohan',
-			'github' => 'https://github.com/spencerrohan',
-			'google' => 'https://plus.google.com/+SpencerRohan',
-			'vimeo' => 'http://vimeo.com/spencerrohan',
-			'imdb' => 'http://www.imdb.com/name/nm1804974/',
+			'twitter' 	=> 'https://twitter.com/spencerrohan',
+			'linkedin' 	=> 'https://www.linkedin.com/in/spencerrohan',
+			'github'		=> 'https://github.com/spencerrohan',
+			'google' 		=> 'https://plus.google.com/+SpencerRohan',
+			'vimeo' 		=> 'http://vimeo.com/spencerrohan',
+			'imdb' 			=> 'http://www.imdb.com/name/nm1804974/',
 			'instagram' => 'https://www.instagram.com/criscocountyjr/',
 
 		];
 		$social_icons = [
-			'twitter' => 'fa-twitter',
-			'linkedin' => 'fa-linkedin',
-			'github' => 'fa-github-alt',
-			'google' => 'fa-google-plus',
-			'vimeo' => 'fa-vimeo',
-			'imdb' => 'fa-imdb',
+			'twitter' 	=> 'fa-twitter',
+			'linkedin' 	=> 'fa-linkedin',
+			'github' 		=> 'fa-github-alt',
+			'google' 		=> 'fa-google-plus',
+			'vimeo' 		=> 'fa-vimeo',
+			'imdb' 			=> 'fa-imdb',
 			'instagram' => 'fa-instagram',
 		];
 

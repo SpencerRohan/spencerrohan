@@ -95,11 +95,11 @@ body { background-color: $retro-white; min-height: 100%; font-family: "bariol";}
 
 .icon-list {
   list-style: none;
+  padding: 0;
   a { 
     color: $retro-black;
   }
   li { display: inline-block; }
-
 }
 
 .artist-info {
