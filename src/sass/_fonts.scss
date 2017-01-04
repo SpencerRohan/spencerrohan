@@ -56,6 +56,16 @@
 }
 
 @font-face {
+  font-family: 'bariol';
+  src: url('/assets/fonts/Bariol/Bariol_Regular/bariol_regular.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Bariol/Bariol_Regular/bariol_regular.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/Bariol/Bariol_Regular/bariol_regular.woff') format('woff'),
+       url('/assets/fonts/Bariol/Bariol_Regular/bariol_regular.ttf')  format('truetype'),
+       url('/assets/fonts/Bariol/Bariol_Regular/bariol_regular.svg') format('svg');
+
+}
+
+@font-face {
   font-family: 'bariol_icons';
   src: url('/assets/fonts/Bariol/Bariol_Icons/bariol_icons.eot');
   src: url('/assets/fonts/Bariol/Bariol_Icons/bariol_icons.eot?#iefix') format('embedded-opentype'),

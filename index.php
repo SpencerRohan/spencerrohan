@@ -78,15 +78,31 @@
 								
 
 								<ul class="icon-list">
-									<?php $social(['linkedin', 'imdb']); ?>
+									<?php $social(['all']); ?>
 								</ul>
 
 								<ul class="icon-list">
+									<!-- Email -->
+									<li>
+										<a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_blank" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">
+											<i class="fa fa-envelope"></i> SpencerMRohan@gmail.com
+										</a>
+									</li>
+									<!-- Telephone -->
+									<li>
+										<a href="tel:2695993279" target="_blank" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">
+											<i class="fa fa-phone"></i> 269-599-3279
+										</a>
+									</li>
+									<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank">Resume</a>
+								</ul>
+
+								<!-- <ul class="icon-list">
 									<li><a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_blank"><span class="i-bariol social-icons">é</span>SpencerMRohan@gmail.com</a></li>
 									<li><a href="tel:2695993279" target="_blank"><i class="fa fa-phone social-icons"></i> 269-599-3279</a></li>
 									<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank">Resume</a>
 								</ul>
-							</article>
+ -->							</article>
 							
 							<article id="content-film" class="content-details">
 								<div class="content-banner" style="background-image:url('<?php echo $url.$image[1] ?>');">
@@ -120,33 +136,29 @@
 			</div>
 		</main>
 
+		<script type="text/javascript" src="assets/js/app.js"></script>
 		<footer>
-			<?php echo $artist_info; ?>
-			<ul class="icon-list">
-				<?php $social(['all']); ?>
-			</ul>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						
+						<span class="contact-info">
+						SpencerMRohan@gmail.com ▰ 269-599-3279
+						</span><span class="artist-info"><i class="fa fa-paint-brush fa-1" aria-hidden="true"></i> <?php echo $artist_info; ?></span>
+					</div>
+				</div>
+			</div>
+			
 			
 
-			<ul class="icon-list">
-				<!-- Email -->
-				<li>
-					<a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_blank" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">
-						<i class="fa fa-envelope"></i> SpencerMRohan@gmail.com
-					</a>
-				</li>
-				<!-- Telephone -->
-				<li>
-					<a href="tel:2695993279" target="_blank" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">
-						<i class="fa fa-phone"></i> 269-599-3279
-					</a>
-				</li>
-
+			
+<!-- 
 				<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank"> Resume </a>
 				<li><a href="#!"> Site Map </a>
-			</ul>
+		
 
-			  <span class="i-bariol">é â  ÿ  É  …  ‘ ê ä</span> 
+			  <span class="i-bariol">é â  ÿ  É  …  ‘ ê ä</span>  -->
 		</footer>
-		<script type="text/javascript" src="assets/js/app.js"></script>
+		
 	</body>
 </html>

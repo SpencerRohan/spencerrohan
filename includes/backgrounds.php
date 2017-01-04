@@ -4,7 +4,7 @@
 	);
 
 	$artist = array(
-		'schridde' => "Charles Schridde | Motorola's 'House of the Future'"
+		'schridde' => "Charles Schridde ▰ Motorola's 'House of the Future'"
 	);
 
 	$group = array_rand($backgrounds, 1);
