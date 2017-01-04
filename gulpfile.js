@@ -113,7 +113,7 @@ var compileSass = function(source, destination) {
         this.emit('end');
       })
     )
-    .pipe(prefixer({browsers: ['last 2 versions'], cascade: false}))
+    .pipe(prefixer())
     .pipe(minifyCSS())
     .pipe(maps.write())
     .pipe(gulp.dest(destination));
