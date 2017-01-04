@@ -1,7 +1,7 @@
 html { height: 100%; }
 
 html, 
-body { background-color: $retro-white; min-height: 100%; }
+body { background-color: $retro-white; min-height: 100%; font-family: "bariol";}
 
 #nav-buttons { display:none; }
 
@@ -92,6 +92,36 @@ body { background-color: $retro-white; min-height: 100%; }
   font-family: 'bariol_bold';
   text-align: center;
 }
+
+.icon-list {
+  list-style: none;
+  padding: 0;
+  a { 
+    color: $retro-black;
+  }
+  li { display: inline-block; }
+}
+
+.artist-info {
+  font-size: .6rem;
+  float: right;
+  font-family: "FilmotypeLaSalle";
+  font-weight:300;
+  color: $retro-gray;
+}
+
+.contact-info {
+  font-size: .6rem;
+  float:left;
+  color: $retro-gray;
+  clear: both;
+}
+
+ /*   display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;*/
 
 
 
