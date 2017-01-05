@@ -40,9 +40,14 @@
 
 		foreach ($icons as $name)
 		{
+			$target = "target='_blank'";
+			if ($name == 'mail'){
+				$target = "";
+			};
+
 			echo '<!--'.$name.'-->
 				<li>
-					<a href="'.$social_links[$name].'" target="_blank" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">
+					<a href="'.$social_links[$name].'" '.$target.' class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">
 						<i class="fa '.$social_icons[$name].'"></i>
 					</a>
 				</li>';
