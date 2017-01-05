@@ -8,6 +8,8 @@
 			'vimeo' 		=> 'http://vimeo.com/spencerrohan',
 			'imdb' 			=> 'http://www.imdb.com/name/nm1804974/',
 			'instagram' => 'https://www.instagram.com/criscocountyjr/',
+			'mail'			=> 'mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site',
+			'phone'			=> 'tel:2695993279'
 
 		];
 		$social_icons = [
@@ -18,17 +20,21 @@
 			'vimeo' 		=> 'fa-vimeo',
 			'imdb' 			=> 'fa-imdb',
 			'instagram' => 'fa-instagram',
+			'mail'			=> 'fa-envelope',
+			'phone'			=> 'fa-phone'
 		];
 
 		if ($icons == ['all']){
 			$icons = [
+				'mail',
 				'twitter',
 				'linkedin',
 				'github',
 				'google',
 				'vimeo',
 				'imdb',
-				'instagram'
+				'instagram',
+				'phone'
 			];
 		};
 

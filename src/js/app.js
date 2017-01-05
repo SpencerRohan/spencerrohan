@@ -10,7 +10,7 @@ $( document ).ready(function() {
             contentID = $(this).attr("id");
 
 
-        $('.content').removeClass('about film web projects test');
+        $('.content').removeClass('about film web projects');
         $('.content').toggleClass(contentID, $(this).is(':checked'));
 
         setTimeout(function(){

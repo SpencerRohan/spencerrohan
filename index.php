@@ -66,19 +66,21 @@
 								<div class="content-banner" style="background-image:url('<?php echo $url.$image[0] ?>');">
 									<h5>About</h5>
 								</div>
-								<p>Digital playground for Time Magazine's "2006 Person of the Year", Spencer Rohan.  10+ years of filmmaking experience. Neighborhood web slinger. Professional Air Guitarist. Futurist, feminist, and recovering pop culture junkie.  As the <a href="https://en.wikipedia.org/wiki/Flying_Spaghetti_Monster" target="_blank" alt="Flying Spaghetti Monster">FSM</a> would put it...</p>
-								<p class="text-center">Filmmaker ▰ Web Developer ▰ Tinkerer</p>
-								<hr>
-								<ul class="icon-list text-center">
-									<?php $social(['all']); ?>
-								</ul>
-								<hr>
-								<div class="col-lg-6 push-lg-3">
-									<blockquote class="blockquote border-none text-center">
-								  	<p class="mb-0" style=" margin-bottom: 0; font-family:'FilmotypeLaSalle'">"I love this young man with all my heart--he keeps me aware with the messages and pictures he sends me---low battery. ~Love"</p>
-								  	<div class="blockquote-footer">Patricia Rohan | Grandma</div>
-									</blockquote>
-								</div>
+								<section class="content-details">
+									<p>Digital playground for Time Magazine's "2006 Person of the Year", Spencer Rohan.  10+ years of filmmaking experience. Neighborhood web slinger. Professional Air Guitarist. Futurist, feminist, and recovering pop culture junkie.  As the <a href="https://en.wikipedia.org/wiki/Flying_Spaghetti_Monster" target="_blank" alt="Flying Spaghetti Monster">FSM</a> would put it...</p>
+									<p class="text-center">Filmmaker ▰ Web Developer ▰ Tinkerer</p>
+									<hr>
+									<ul class="icon-list text-center">
+										<?php $social(['all']); ?>
+									</ul>
+									<hr>
+									<div class="col-lg-8 push-lg-2">
+										<blockquote class="blockquote border-none text-center">
+									  	<p class="mb-0" style=" margin-bottom: 0; font-family:'FilmotypeLaSalle'">"I love this young man with all my heart--he keeps me aware with the messages and pictures he sends me---low battery. ~Love"</p>
+									  	<div class="blockquote-footer">Patricia Rohan | Grandma</div>
+										</blockquote>
+									</div>
+								</section>
 
 								
 								
@@ -98,15 +100,37 @@
 									<?php $social(['imdb', 'vimeo']); ?>
 								</ul>
 							</article>
-
 							<article id="content-web" class="content-details">
 								<div class="content-banner" style="background-image:url('<?php echo $url.$image[2] ?>');">
 									<h5>Web Developer</h5>
 								</div>
-								<ul class="icon-list">
-									<?php $social(['linkedin', 'github']); ?>
-									<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank">Resume</a>
-								</ul>
+								<section class="content-details">
+									<p>Dev Bootcamp grad, developer with attitude - front, back, & full stack <em>JACK!</em> See <a href="#!">coding skills</a> that occupy the brain waves. Always working towards new techniques, learning more, and living out of the comfort zone.</p>
+									<p class="text-center">Resume ▰ Github ▰ Portfolio ▰ Linkedin</p>
+									<hr>
+									<div class="col-lg-12">
+									<div class="col-lg-3 push-lg-1">
+										<blockquote class="border-none text-center">
+									  	<p style="font-size: 65px; font-family:'glamocon'; margin-bottom: -16px;">M</p><p style="font-family:'FilmotypeLaSalle';">Available Now!</p>
+										</blockquote>
+									</div>
+									<div class="col-lg-6 push-lg-1">
+										<blockquote class="border-none">
+									  	<p class="text-center" style=" margin-bottom: 0;">Spencer is now looking for a new developer job. That's right - reach out today to get your hands on this eager and hardworking fellow! </p>
+									  	<ul class="icon-list text-center">
+												<?php $social(['mail', 'phone']); ?>
+											</ul>
+										</blockquote>
+									</div>
+									</div>
+									<hr style="clear:both;">
+									<div class="col-lg-8 push-lg-2">
+										<blockquote class="blockquote border-none text-center">
+									  	<p class="mb-0" style=" margin-bottom: 0; font-family:'FilmotypeLaSalle'">"Spencer works well with others and has the ability to learn quickly. Probably one of the least crappy people I know."</p>
+									  	<div class="blockquote-footer">Connor Ring | Fellow Code Monkey</div>
+										</blockquote>
+									</div>
+								</section>
 							</article>
 							
 
@@ -129,7 +153,8 @@
 					<div class="col-lg-12">
 						
 						<span class="contact-info">
-						SpencerMRohan@gmail.com ▰ 269-599-3279
+						SpencerMRohan@gmail.com<br>
+						Resume ▰ Site Map
 						</span><span class="artist-info"><i class="fa fa-paint-brush fa-1" aria-hidden="true"></i> <?php echo $artist_info; ?></span>
 					</div>
 				</div>
