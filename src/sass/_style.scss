@@ -3,6 +3,32 @@ html { height: 100%; }
 html, 
 body { background-color: $retro-white; min-height: 100%; font-family: "bariol";}
 
+p a, 
+p a:visited,
+p a:active,
+p a:focus { 
+  color: $retro-red;
+  transition: color .2s ease-out;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+p a:hover { color: $retro-red-highlight; text-decoration: none;}
+
+.available-link,
+.available-link:active,
+.available-link:visited,
+.available-link:hover { font-weight: 300; }
+
+.icon-list a:hover,
+.icon-list a:visited,
+.icon-list a,
+a i:hover,
+a i:visited,
+a i { transition: color 0s; }
+
+a i:hover, a i:active { color: $retro-white; }
+
 #nav-buttons { display:none; }
 
 .error { 
