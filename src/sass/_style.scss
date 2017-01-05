@@ -15,7 +15,10 @@ p a:focus {
 
 p a:hover { color: $retro-red-highlight; text-decoration: none;}
 
-.available-link { font-weight: 300; }
+.available-link,
+.available-link:active,
+.available-link:visited,
+.available-link:hover { font-weight: 300; }
 
 .icon-list a:hover,
 .icon-list a:visited,

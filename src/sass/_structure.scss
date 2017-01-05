@@ -44,7 +44,8 @@ hr { margin-left: 5rem; margin-right: 5rem; }
 .btn-outline-primary:focus,
 .btn-outline-primary:active,
 .btn-outline-primary.active,
-.btn-outline-primary:active:focus {
+.btn-outline-primary:active:focus,
+.btn-outline-primary.active:focus, .btn-outline-primary.active:hover, .btn-outline-primary:active.focus, .btn-outline-primary:active:focus, .btn-outline-primary:active:hover, .open>.dropdown-toggle.btn-outline-primary.focus, .open>.dropdown-toggle.btn-outline-primary:focus, .open>.dropdown-toggle.btn-outline-primary:hover {
   color: $retro-white;
   background-color: $retro-red;
   border-color: $retro-red; 

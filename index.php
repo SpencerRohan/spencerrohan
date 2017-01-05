@@ -135,7 +135,9 @@
 								<div class="content-banner" style="background-image:url('<?php echo $url.$image[3] ?>');">
 									<h5>Projects & Random</h5>
 								</div>
-								<p>Coming Soon</p>
+								<section class="content-details">
+									<br><h4 class="text-center filmotypelasalle">Coming Soon!</h4>
+								</section>
 							</article>
 
 						</div>

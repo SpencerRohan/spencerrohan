@@ -11,6 +11,17 @@
  }
 
  @font-face {
+  font-family: 'glamocon';
+  src: url('/assets/fonts/Glamocon/glamocon.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Glamocon/glamocon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/Glamocon/glamocon.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/Glamocon/glamocon.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/Glamocon/glamocon.svg#51092cc6d378b2f00be49b40fcafd1bb') format('svg'); /* Legacy iOS */
+  font-style:   normal;
+  font-weight:  400;
+ }
+
+ @font-face {
    font-family: 'FilmotypeMacBeth';
    src: url('/assets/fonts/Filmotype/FilmotypeMacBeth/FilmotypeMacBeth.eot'); /* IE9 Compat Modes */
    src: url('/assets/fonts/Filmotype/FilmotypeMacBeth/FilmotypeMacBeth.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
