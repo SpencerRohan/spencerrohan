@@ -8,7 +8,9 @@
 		<?php include 'includes/seo.php' ?>
 		<?php include 'includes/social.php' ?>
 	</head>
+	
 	<body>
+		<!-- Header -->
 		<header>
 			<div class="logo-container">
 				<h1 class="logo">Spencer Rohan</h1>
@@ -16,6 +18,8 @@
 		</header>
 		
 		<?php @include 'includes/backgrounds.php' ?>
+		
+		<!-- Main -->
 		<main>
 			<div class="container">
 				<div id="nav-buttons" class="row">
@@ -61,6 +65,7 @@
 				<div class="row">
 					<div class="col-lg-9 push-lg-3 content-box">
 						<div class="content">
+							
 							<article id="content-about" class="content-details">
 								<div class="content-banner" style="background-image:url('<?php echo $url.$image[0] ?>');">
 									<h5>About</h5>
@@ -75,21 +80,12 @@
 									<hr>
 									<div class="col-lg-8 push-lg-2">
 										<blockquote class="blockquote border-none text-center">
-									  	<p class="mb-0" style=" margin-bottom: 0; font-family:'FilmotypeLaSalle'">"I love this young man with all my heart--he keeps me aware with the messages and pictures he sends me---low battery. ~Love"</p>
+									  	<p class="mb-0 filmotypelasalle">"I love this young man with all my heart--he keeps me aware with the messages and pictures he sends me---low battery. ~Love"</p>
 									  	<div class="blockquote-footer">Patricia Rohan | Grandma</div>
 										</blockquote>
 									</div>
 								</section>
-
-								
-								
-								
-								<!-- <ul class="icon-list">
-									<li><a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site" target="_blank"><span class="i-bariol social-icons">é</span>SpencerMRohan@gmail.com</a></li>
-									<li><a href="tel:2695993279" target="_blank"><i class="fa fa-phone social-icons"></i> 269-599-3279</a></li>
-									<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank">Resume</a>
-								</ul>
- -->							</article>
+							</article>
 							
 							<article id="content-film" class="content-details">
 								<div class="content-banner" style="background-image:url('<?php echo $url.$image[1] ?>');">
@@ -99,33 +95,35 @@
 									<?php $social(['imdb', 'vimeo']); ?>
 								</ul>
 							</article>
+
 							<article id="content-web" class="content-details">
 								<div class="content-banner" style="background-image:url('<?php echo $url.$image[2] ?>');">
 									<h5>Web Developer</h5>
 								</div>
 								<section class="content-details">
-									<p>Dev Bootcamp grad, developer with attitude - front, back, & full stack <em>JACK!</em> See <a href="#!">coding skills</a> that occupy the brain waves. Always working towards new techniques, learning more, and living out of the comfort zone.</p>
-									<p class="text-center">Resume ▰ Github ▰ Portfolio ▰ Linkedin</p>
+									<p>Dev Bootcamp grad, developer with attitude - front, back, & full stack <em>JACK!</em> See the <a href="#!">coding skills</a> that occupy the brain waves. Always working towards new techniques, learning more, and living out of the comfort zone.</p>
+									<p class="text-center"><a href="#!">Resume</a> ▰ <a href="#!" target="_blank">Github</a> ▰ <a href="#!">Portfolio</a> ▰ <a href="#">Linkedin</a></p>
 									<hr>
 									<div class="col-lg-12">
-									<div class="col-lg-3 push-lg-1">
-										<blockquote class="border-none text-center">
-									  	<p style="font-size: 65px; font-family:'glamocon'; margin-bottom: -16px;">M</p><p style="font-family:'FilmotypeLaSalle';">Available Now!</p>
-										</blockquote>
+										<div class="col-lg-3 push-lg-1">
+											<blockquote class="border-none text-center">
+										  	<p class="glamocon available-face" style="margin-bottom: -16px;">M</p>
+										  	<p class="filmotypelasalle"><a class="available-link" href="#!">Available Now!</a></p>
+											</blockquote>
+										</div>
+										<div class="col-lg-6 push-lg-1">
+											<blockquote class="border-none">
+										  	<p class="text-center" style=" margin-bottom: 0;">Spencer is now looking for a new developer job. That's right - reach out today to get your hands on this eager and hardworking fellow! </p>
+										  	<ul class="icon-list text-center">
+													<?php $social(['mail', 'phone']); ?>
+												</ul>
+											</blockquote>
+										</div>
 									</div>
-									<div class="col-lg-6 push-lg-1">
-										<blockquote class="border-none">
-									  	<p class="text-center" style=" margin-bottom: 0;">Spencer is now looking for a new developer job. That's right - reach out today to get your hands on this eager and hardworking fellow! </p>
-									  	<ul class="icon-list text-center">
-												<?php $social(['mail', 'phone']); ?>
-											</ul>
-										</blockquote>
-									</div>
-									</div>
-									<hr style="clear:both;">
+									<hr class="clear-both" style="clear:both;">
 									<div class="col-lg-8 push-lg-2">
 										<blockquote class="blockquote border-none text-center">
-									  	<p class="mb-0" style=" margin-bottom: 0; font-family:'FilmotypeLaSalle'">"Spencer works well with others and has the ability to learn quickly. Probably one of the least crappy people I know."</p>
+									  	<p class="mb-0 filmotypelasalle" style=" margin-bottom: 0; font-family:'FilmotypeLaSalle'">"Spencer works well with others and has the ability to learn quickly. Probably one of the least crappy people I know."</p>
 									  	<div class="blockquote-footer">Connor Ring | Fellow Code Monkey</div>
 										</blockquote>
 									</div>
@@ -139,13 +137,17 @@
 								</div>
 								<p>Coming Soon</p>
 							</article>
+
 						</div>
 					</div>
 				</div>
 			</div>
 		</main>
-
+		
+		<!-- Scripts -->
 		<script type="text/javascript" src="assets/js/app.js"></script>
+
+		<!-- Footer -->
 		<footer>
 			<div class="container">
 				<div class="row">
@@ -158,17 +160,9 @@
 					</div>
 				</div>
 			</div>
-			
-			
-
-			
-<!-- 
-				<li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank"> Resume </a>
-				<li><a href="#!"> Site Map </a>
-		
-
-			  <span class="i-bariol">é â  ÿ  É  …  ‘ ê ä</span>  -->
 		</footer>
+
+				<!-- <li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank"> Resume </a> -->
 		
 	</body>
 </html>
