@@ -165,7 +165,7 @@
 			</div>
 		</footer>
 
-				<!-- <li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank"> Resume </a> -->
+				<!-- Resume <li><a href="/assets/docs/SpencerRohanResume.pdf" target="_blank"> Resume </a> -->
 		
 	</body>
 </html>
