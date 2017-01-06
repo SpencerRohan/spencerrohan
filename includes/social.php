@@ -1,6 +1,6 @@
 <?php
 	function social($icons){
-		$social_links = [
+		$social_links = array(
 			'twitter' 	=> 'https://twitter.com/spencerrohan',
 			'linkedin' 	=> 'https://www.linkedin.com/in/spencerrohan',
 			'github'		=> 'https://github.com/spencerrohan',
@@ -10,9 +10,9 @@
 			'instagram' => 'https://www.instagram.com/criscocountyjr/',
 			'mail'			=> 'mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site',
 			'phone'			=> 'tel:2695993279'
+		);
 
-		];
-		$social_icons = [
+		$social_icons = array(
 			'twitter' 	=> 'fa-twitter',
 			'linkedin' 	=> 'fa-linkedin',
 			'github' 		=> 'fa-github-alt',
@@ -22,10 +22,10 @@
 			'instagram' => 'fa-instagram',
 			'mail'			=> 'fa-envelope',
 			'phone'			=> 'fa-phone'
-		];
+		);
 
-		if ($icons == ['all']){
-			$icons = [
+		if ($icons == array('all')){
+			$icons = array(
 				'mail',
 				'twitter',
 				'linkedin',
@@ -35,7 +35,7 @@
 				'imdb',
 				'instagram',
 				'phone'
-			];
+			);
 		};
 
 		foreach ($icons as $name)
