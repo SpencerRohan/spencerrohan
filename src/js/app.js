@@ -18,16 +18,25 @@ $( document ).ready(function() {
         setTimeout(function(){
             $(getUrlVars()['loc']).click(); 
         },1);
-        console.log('clicked');
     };
+
+    $(".fss").click(function(event) {
+        event.preventDefault();
+        var link = $(this).data('link')
+        $('html, body').animate({
+            scrollTop: $(link).offset().top
+        }, 2000);
+    });
 
     $('.parallax').parallax();
 
     $(document).on('click', '.main-anchors-lg .fs', function(event) { 
-        event.preventDefault(); 
-        $("#first").click();
+        event.preventDefault();
+        var link    = $(this).data('link'),
+            current = $(this).data('current');
+        $(current).click();
         setTimeout(function(){
-            $("#second").click(); 
+            $(link).click(); 
         },600);
     });
 
