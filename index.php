@@ -116,7 +116,7 @@
 											<blockquote class="border-none">
 										  	<p class="text-center" style=" margin-bottom: 0;">Spencer is now looking for a new developer job. That's right - reach out today to get your hands on this eager and hardworking fellow! </p>
 										  	<ul class="icon-list text-center">
-													<?php $social(['mail', 'phone']); ?>
+													<?php $social(array('mail', 'phone')); ?>
 												</ul>
 											</blockquote>
 										</div>
