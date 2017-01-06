@@ -76,7 +76,7 @@
 									<p class="text-center">Filmmaker ▰ Web Developer ▰ Tinkerer</p>
 									<hr>
 									<ul class="icon-list text-center">
-										<?php $social(array('all')); ?>
+										<?php social(array('all')); ?>
 									</ul>
 									<hr>
 									<div class="col-lg-8 push-lg-2">
@@ -93,7 +93,7 @@
 									<h5>Filmmaker</h5>
 								</div>
 								<ul class="icon-list">
-									<?php $social(array('imdb', 'vimeo')); ?>
+									<?php social(array('imdb', 'vimeo')); ?>
 								</ul>
 							</article>
 
@@ -116,7 +116,7 @@
 											<blockquote class="border-none">
 										  	<p class="text-center" style=" margin-bottom: 0;">Spencer is now looking for a new developer job. That's right - reach out today to get your hands on this eager and hardworking fellow! </p>
 										  	<ul class="icon-list text-center">
-													<?php $social(array('mail', 'phone')); ?>
+													<?php social(array('mail', 'phone')); ?>
 												</ul>
 											</blockquote>
 										</div>

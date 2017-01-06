@@ -1,5 +1,5 @@
 <?php
-	$social = function($icons){
+	function social($icons){
 		$social_links = [
 			'twitter' 	=> 'https://twitter.com/spencerrohan',
 			'linkedin' 	=> 'https://www.linkedin.com/in/spencerrohan',
@@ -53,5 +53,4 @@
 				</li>';
 		};	
 	};
-
 ?>
