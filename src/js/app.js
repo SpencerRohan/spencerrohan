@@ -1,7 +1,36 @@
 $( document ).ready(function() {
     console.log('Inspect me?! I barely know you! XOXO Spencer [SpencerMRohan@gmail.com]');
 
+    function getUrlVars()
+    {
+        var vars = [], hash;
+        var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        for(var i = 0; i < hashes.length; i++)
+        {
+            hash = hashes[i].split('=');
+            vars.push(hash[0]);
+            vars[hash[0]] = hash[1];
+        }
+        return vars;
+    }
+
+    if (getUrlVars()['loc']){
+        setTimeout(function(){
+            $(getUrlVars()['loc']).click(); 
+        },1);
+        console.log('clicked');
+    };
+
     $('.parallax').parallax();
+
+    $(document).on('click', '.main-anchors-lg .fs', function(event) { 
+        event.preventDefault(); 
+        $("#first").click();
+        setTimeout(function(){
+            $("#second").click(); 
+        },600);
+    });
+
     
     $('.outer-circle input').on('change', function(){
         $('.content-box').toggleClass('open', $(this).is(':checked'));
