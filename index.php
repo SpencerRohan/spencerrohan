@@ -73,7 +73,7 @@
 								</div>
 								<section class="content-details">
 									<p>Digital playground for Time Magazine's "2006 Person of the Year", Spencer Rohan.  10+ years of filmmaking experience. Neighborhood web slinger. Professional Air Guitarist. Futurist, feminist, and recovering pop culture junkie.  As the <a href="https://en.wikipedia.org/wiki/Flying_Spaghetti_Monster" target="_blank" alt="Flying Spaghetti Monster">FSM</a> would put it...</p>
-									<p class="text-center">Filmmaker ▰ Web Developer ▰ Tinkerer</p>
+									<p class="text-center">Filmmaker 	&#x25b0; Web Developer 	&#x25b0; Tinkerer</p>
 									<hr>
 									<ul class="icon-list text-center">
 										<?php social(array('all')); ?>
@@ -103,7 +103,7 @@
 								</div>
 								<section class="content-details">
 									<p>Dev Bootcamp grad, developer with attitude - front, back, & full stack <em>JACK!</em> See the <a href="#!">coding skills</a> that occupy the brain waves. Always working towards new techniques, learning more, and living out of the comfort zone.</p>
-									<p class="text-center"><a href="#!">Resume</a> ▰ <a href="#!" target="_blank">Github</a> ▰ <a href="#!">Portfolio</a> ▰ <a href="#">Linkedin</a></p>
+									<p class="text-center"><a href="#!">Resume</a> 	&#x25b0; <a href="#!" target="_blank">Github</a> 	&#x25b0; <a href="#!">Portfolio</a> 	&#x25b0; <a href="#">Linkedin</a></p>
 									<hr>
 									<div class="col-lg-12">
 										<div class="col-lg-3 push-lg-1">
@@ -158,7 +158,7 @@
 						
 						<span class="contact-info">
 						SpencerMRohan@gmail.com<br>
-						Resume ▰ Site Map
+						Resume 	&#x25b0; Site Map
 						</span><span class="artist-info"><i class="fa fa-paint-brush fa-1" aria-hidden="true"></i> <?php echo $artist_info; ?></span>
 					</div>
 				</div>
