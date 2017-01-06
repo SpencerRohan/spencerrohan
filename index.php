@@ -6,7 +6,7 @@
 		<meta name="description" content="Looking for the best web developer slash filmmaker in the Chicago area? THE GALAXY?! Well tough you found Spencer M. Rohan's website first -- so deal with it.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="assets/css/app.css">	
-		<?php include 'analyticstracking.php' ?>
+		<?php include 'includes/analyticstracking.php' ?>
 		<?php include 'includes/social.php' ?>
 	</head>
 	
@@ -18,7 +18,7 @@
 			</div>
 		</header>
 		
-		<?php @include 'includes/backgrounds.php' ?>
+		<?php include 'includes/backgrounds.php' ?>
 		
 		<!-- Main -->
 		<main>
@@ -76,7 +76,7 @@
 									<p class="text-center">Filmmaker ▰ Web Developer ▰ Tinkerer</p>
 									<hr>
 									<ul class="icon-list text-center">
-										<?php $social(['all']); ?>
+										<?php $social(array('all')); ?>
 									</ul>
 									<hr>
 									<div class="col-lg-8 push-lg-2">
@@ -93,7 +93,7 @@
 									<h5>Filmmaker</h5>
 								</div>
 								<ul class="icon-list">
-									<?php $social(['imdb', 'vimeo']); ?>
+									<?php $social(array('imdb', 'vimeo')); ?>
 								</ul>
 							</article>
 
@@ -164,6 +164,6 @@
 				</div>
 			</div>
 		</footer>
-				
+
 	</body>
 </html>
