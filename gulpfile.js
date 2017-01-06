@@ -58,6 +58,7 @@ gulp.task('js', function() {
       src.vendor.tether+'/dist/js/tether.min.js',
       // src.vendor.materialize+'/dist/js/materialize.js',
       src.vendor.bootstrap+'/dist/js/bootstrap.min.js',
+      src.js.base+'/parallax.js',
       src.js.base+'/app.js',
     ], 
     dest.js

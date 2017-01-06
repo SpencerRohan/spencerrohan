@@ -1,5 +1,7 @@
 $( document ).ready(function() {
     console.log('Inspect me?! I barely know you! XOXO Spencer [SpencerMRohan@gmail.com]');
+
+    $('.parallax').parallax();
     
     $('.outer-circle input').on('change', function(){
         $('.content-box').toggleClass('open', $(this).is(':checked'));
