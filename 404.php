@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title><?php echo http_response_code() ?> Page - Spencer M. Rohan</title>
+		<title>404 Page - Spencer M. Rohan</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="assets/css/app.css">	
 		<?php include 'includes/analyticstracking.php' ?>
