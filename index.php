@@ -104,31 +104,18 @@
 									<div class="parallax"><img src="<?php echo $url.$image[1] ?>"></div>
 								</div>
 								<section class="content-details">
-									<p>Dev Bootcamp grad, developer with attitude - front, back, & full stack <em>JACK!</em> See the <a href="#!">coding skills</a> that occupy the brain waves. Always working towards new techniques, learning more, and living out of the comfort zone.</p>
+									<p>Closing down all the video stores was just the beginning. Now gripping, lighting, props, editing, directing, & producing are all part of his arsonal.  A decade in the making -- there is no stopping Spencer!</p>
 									<p class="text-center">
-										<a href="/assets/docs/spencerrohanresume.pdf">Resume</a> &#x25b0; <a href="https://github.com/spencerrohan" target="_blank">Github</a>	&#x25b0; <a href="#!">Portfolio</a> &#x25b0; <a href="https://www.linkedin.com/in/spencerrohan">Linkedin</a></p>
+										<a href="#!">Demo Reel</a> &#x25b0; <a href="http://vimeo.com/spencerrohan" target="_blank">Vimeo</a>	&#x25b0; <a href="http://www.imdb.com/name/nm1804974/" target="_blank">IMDB</a></p>
 									<hr>
 									<div class="col-lg-12">
-										<div class="col-md-3 push-md-1">
-											<blockquote class="border-none text-center">
-										  	<p class="glamocon available-face" style="margin-bottom: -16px;">M</p>
-										  	<p class="filmotypelasalle"><a class="available-link" href="#!">Available Now!</a></p>
-											</blockquote>
-										</div>
-										<div class="col-md-6 push-md-1">
-											<blockquote class="border-none">
-										  	<p class="text-center" style=" margin-bottom: 0;">Spencer is now looking for a new developer job. That's right - reach out today to get your hands on this eager and hardworking fellow! </p>
-										  	<ul class="icon-list text-center">
-													<?php social(array('mail-work', 'phone')); ?>
-												</ul>
-											</blockquote>
-										</div>
+										VIDEO WILL GO HERE
 									</div>
-									<hr class="clear-both">
 									<div class="col-lg-8 push-lg-2">
+									<hr class="clear-both">
 										<blockquote class="blockquote border-none text-center">
-									  	<p class="mb-0 filmotypelasalle" style=" margin-bottom: 0; font-family:'FilmotypeLaSalle'">"Spencer works well with others and has the ability to learn quickly. Probably one of the least crappy people I know."</p>
-									  	<div class="blockquote-footer">Connor Ring | Fellow Code Monkey</div>
+									  	<p class="mb-0 filmotypelasalle" style=" margin-bottom: 0; font-family:'FilmotypeLaSalle'">"Aaarg arrrragh arrr huraa arg."</p>
+									  	<div class="blockquote-footer">Chewbacca | Spirit Animal</div>
 										</blockquote>
 									</div>
 								</section>
@@ -196,8 +183,8 @@
 					<div class="col-lg-12">
 						<hr>
 						<p class="contact-info">
-						SpencerMRohan@gmail.com<br>
-						Resume 	&#x25b0; Site Map
+							<a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site">SpencerMRohan@gmail.com</a><br>
+							<a href="/assets/docs/spencerrohanresume.pdf">Resume</a> 	&#x25b0; Site Map
 						</p>
 						<p class="artist-info"><i class="fa fa-paint-brush fa-1" aria-hidden="true"></i> <?php echo $artist_info; ?></p>
 					</div>
