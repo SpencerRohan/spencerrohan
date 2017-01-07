@@ -128,13 +128,13 @@
 								</div>
 								<section class="content-details">
 									<p>Dev Bootcamp grad, developer with attitude - front, back, & full stack <em>JACK!</em> See the <a href="#!">coding skills</a> that occupy the brain waves. Always working towards new techniques, learning more, and living out of the comfort zone.</p>
-									<p class="text-center"><a href="/assets/docs/spencerrohanresume.pdf">Resume</a> 	&#x25b0; <a href="https://github.com/spencerrohan" target="_blank">Github</a> 	&#x25b0; <a href="#!">Portfolio</a> 	&#x25b0; <a href="https://www.linkedin.com/in/spencerrohan">Linkedin</a></p>
+									<p class="text-center"><a href="/assets/docs/SpencerRohanResume.pdf">Resume</a> 	&#x25b0; <a href="https://github.com/spencerrohan" target="_blank">Github</a> 	&#x25b0; <a href="#!">Portfolio</a> 	&#x25b0; <a href="https://www.linkedin.com/in/spencerrohan">Linkedin</a></p>
 									<hr>
 									<div class="col-lg-12">
 										<div class="col-md-3 push-md-1">
 											<blockquote class="border-none text-center">
 										  	<p class="glamocon available-face" style="margin-bottom: -16px;">M</p>
-										  	<p class="filmotypelasalle"><a class="available-link" href="/assets/docs/spencerrohanresume.pdf">Available Now!</a></p>
+										  	<p class="filmotypelasalle"><a class="available-link" href="/assets/docs/SpencerRohanResume.pdf">Available Now!</a></p>
 											</blockquote>
 										</div>
 										<div class="col-md-6 push-md-1">
@@ -184,7 +184,7 @@
 						<hr>
 						<p class="contact-info">
 							<a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site">SpencerMRohan@gmail.com</a><br>
-							<a href="/assets/docs/spencerrohanresume.pdf">Resume</a> 	&#x25b0; Site Map
+							<a href="/assets/docs/SpencerRohanResume.pdf">Resume</a> 	&#x25b0; Site Map
 						</p>
 						<p class="artist-info"><i class="fa fa-paint-brush fa-1" aria-hidden="true"></i> <?php echo $artist_info; ?></p>
 					</div>
