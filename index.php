@@ -3,7 +3,7 @@
 	<head>
 		<title>Spencer M. Rohan</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Looking for the best web developer slash filmmaker in the Chicago area? THE GALAXY?! Well tough you found Spencer M. Rohan's website first -- so deal with it.">
+		<meta name="description" content="Looking for the best web developer or filmmaker in Chicago? THE GALAXY?! Well tough you found Spencer M. Rohan's website first -- so deal with it.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="assets/css/app.css">	
 		<?php include 'includes/analyticstracking.php' ?>
