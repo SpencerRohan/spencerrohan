@@ -16,6 +16,30 @@
     100% {transform: translate3d(-300%, 0, 0);}
 }
 
+@keyframes slide-mid-0 {
+    0%   {transform: translate3d(0, 0, 0);}
+    50%  { }
+    100% {transform: translate3d(50%, 0, 0);}
+}
+
+@keyframes slide-mid-1 {
+    0%   {transform: translate3d(0, 0, 0);}
+    50%  { }
+    100% {transform: translate3d(-50%, 0, 0);}
+}
+
+@keyframes slide-mid-2 {
+    0%   {transform: translate3d(0, 0, 0);}
+    50%  { }
+    100% {transform: translate3d(50%, -125%, 0);}
+}
+
+@keyframes slide-mid-3 {
+    0%   {transform: translate3d(0, 0, 0);}
+    50%  { }
+    100% {transform: translate3d(-50%, -125%, 0);}
+}
+
 @keyframes slideback-1 {
     0%   {transform: translate3d(-100%, 0, 0);}
     50%  { }
@@ -30,6 +54,30 @@
 
 @keyframes slideback-3 {
     0%   {transform: translate3d(-300%, 0, 0);}
+    50%  { }
+    100% {transform: translate3d(0%, 0, 0);}
+}
+
+@keyframes slideback-mid-0 {
+    0%   {transform: translate3d(50%, 0, 0);}
+    50%  { }
+    100% {transform: translate3d(0%, 0, 0);}
+}
+
+@keyframes slideback-mid-1 {
+    0%   {transform: translate3d(-50%, 0, 0);}
+    50%  { }
+    100% {transform: translate3d(0%, 0, 0);}
+}
+
+@keyframes slideback-mid-2 {
+    0%   {transform: translate3d(50%, -125%, 0);}
+    50%  { }
+    100% {transform: translate3d(0%, 0, 0);}
+}
+
+@keyframes slideback-mid-3 {
+    0%   {transform: translate3d(-50%, -125%, 0);}
     50%  { }
     100% {transform: translate3d(0%, 0, 0);}
 }
