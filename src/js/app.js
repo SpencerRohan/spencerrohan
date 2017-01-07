@@ -1,10 +1,51 @@
 $( document ).ready(function() {
     console.log('Inspect me?! I barely know you! XOXO Spencer [SpencerMRohan@gmail.com]');
+
+    function getUrlVars()
+    {
+        var vars = [], hash;
+        var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        for(var i = 0; i < hashes.length; i++)
+        {
+            hash = hashes[i].split('=');
+            vars.push(hash[0]);
+            vars[hash[0]] = hash[1];
+        }
+        return vars;
+    }
+
+    if (getUrlVars()['loc']){
+        setTimeout(function(){
+            $(getUrlVars()['loc']).click(); 
+        },1);
+    };
+
+    $(".main-anchors-sm .anchor-link").click(function(event) {
+        event.preventDefault();
+        var link = $(this).data('link')
+        $('html, body').animate({
+            scrollTop: $(link).offset().top
+        }, 2000);
+    });
+
+    $('.parallax').parallax();
+
+    $(document).on('click', '.main-anchors-lg .anchor-link', function(event) { 
+        event.preventDefault();
+        var link    = $(this).data('link'),
+            current = $(this).data('current');
+        $(current).click();
+        setTimeout(function(){
+            $(link).click(); 
+        },600);
+    });
+
     
     $('.outer-circle input').on('change', function(){
         $('.content-box').toggleClass('open', $(this).is(':checked'));
         $('.content-box').toggleClass('closed', $(this).is(':not(:checked)'));
     	$('.outer-circle').toggleClass('ready', $(this).is(':not(:checked)'));
+        $('footer').toggleClass('content-is-open', $(this).is(':checked'));
         
         var $siblings = $(this).parent().siblings(),
             $parent = $(this).parent(),

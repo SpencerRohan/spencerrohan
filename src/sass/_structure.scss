@@ -1,7 +1,5 @@
 label.outer-circle { display: block; }
 
-
-
 /* 404 */
 .e-num{ 
 	font-family: FilmotypeLaSalle;
@@ -12,6 +10,9 @@ label.outer-circle { display: block; }
 .back-retro-white { background-color: $retro-white; }
 .border-none { border:none; }
 hr { margin-left: 5rem; margin-right: 5rem; }
+
+/* Floats */
+.clear-both { clear: both; }
 
 /* Alignment */
 .text-center { text-align: center; }

@@ -1,8 +1,9 @@
-@include media(">=sm") {
+@include media("<sm") {
 
-	.outer-circle {
-		margin-bottom: 25px;
-		margin-top: 25px;
+	.artist-info,
+	.contact-info {
+		float: none;
+		text-align: center;
 	}
 
 }

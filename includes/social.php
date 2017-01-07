@@ -9,6 +9,7 @@
 			'imdb' 			=> 'http://www.imdb.com/name/nm1804974/',
 			'instagram' => 'https://www.instagram.com/criscocountyjr/',
 			'mail'			=> 'mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site',
+			'mail-work' => 'mailto:spencermrohan@gmail.com?Subject=Saw%20your%20resume',
 			'phone'			=> 'tel:2695993279'
 		);
 
@@ -21,6 +22,7 @@
 			'imdb' 			=> 'fa-imdb',
 			'instagram' => 'fa-instagram',
 			'mail'			=> 'fa-envelope',
+			'mail-work' => 'fa-envelope',
 			'phone'			=> 'fa-phone'
 		);
 
@@ -41,7 +43,7 @@
 		foreach ($icons as $name)
 		{
 			$target = "target='_blank'";
-			if ($name == 'mail'){
+			if ($name == 'mail' || 'mail-work'){
 				$target = "";
 			};
 
