@@ -20,7 +20,7 @@ $( document ).ready(function() {
         },1);
     };
 
-    $(".fss").click(function(event) {
+    $(".main-anchors-sm .anchor-link").click(function(event) {
         event.preventDefault();
         var link = $(this).data('link')
         $('html, body').animate({
@@ -30,7 +30,7 @@ $( document ).ready(function() {
 
     $('.parallax').parallax();
 
-    $(document).on('click', '.main-anchors-lg .fs', function(event) { 
+    $(document).on('click', '.main-anchors-lg .anchor-link', function(event) { 
         event.preventDefault();
         var link    = $(this).data('link'),
             current = $(this).data('current');
@@ -45,6 +45,7 @@ $( document ).ready(function() {
         $('.content-box').toggleClass('open', $(this).is(':checked'));
         $('.content-box').toggleClass('closed', $(this).is(':not(:checked)'));
     	$('.outer-circle').toggleClass('ready', $(this).is(':not(:checked)'));
+        $('footer').toggleClass('content-is-open', $(this).is(':checked'));
         
         var $siblings = $(this).parent().siblings(),
             $parent = $(this).parent(),

@@ -42,6 +42,14 @@ a i:hover, a i:active { color: $retro-white; }
 	text-align: center;
 }
 
+.main-anchors-sm {
+  display:block;
+}
+
+.main-anchors-lg { 
+  display:none;
+}
+
 .logo {
   color: $retro-red;
   font-family: "FilmotypeLaSalle";
