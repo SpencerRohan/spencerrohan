@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/app.css">	
 		<?php include 'includes/analyticstracking.php' ?>
 		<?php include 'includes/social.php' ?>
+		<?php include 'includes/favinfo.php' ?>
 	</head>
 	
 	<body>
@@ -105,7 +106,7 @@
 								<section class="content-details">
 									<p>Dev Bootcamp grad, developer with attitude - front, back, & full stack <em>JACK!</em> See the <a href="#!">coding skills</a> that occupy the brain waves. Always working towards new techniques, learning more, and living out of the comfort zone.</p>
 									<p class="text-center">
-										<a href="http://spencerrohan.dev/assets/docs/spencerrohanresume.pdf">Resume</a> &#x25b0; <a href="#!" target="_blank">Github</a>	&#x25b0; <a href="#!">Portfolio</a> &#x25b0; <a href="#">Linkedin</a></p>
+										<a href="/assets/docs/spencerrohanresume.pdf">Resume</a> &#x25b0; <a href="https://github.com/spencerrohan" target="_blank">Github</a>	&#x25b0; <a href="#!">Portfolio</a> &#x25b0; <a href="https://www.linkedin.com/in/spencerrohan">Linkedin</a></p>
 									<hr>
 									<div class="col-lg-12">
 										<div class="col-md-3 push-md-1">
@@ -118,7 +119,7 @@
 											<blockquote class="border-none">
 										  	<p class="text-center" style=" margin-bottom: 0;">Spencer is now looking for a new developer job. That's right - reach out today to get your hands on this eager and hardworking fellow! </p>
 										  	<ul class="icon-list text-center">
-													<?php social(array('mail', 'phone')); ?>
+													<?php social(array('mail-work', 'phone')); ?>
 												</ul>
 											</blockquote>
 										</div>
@@ -140,20 +141,20 @@
 								</div>
 								<section class="content-details">
 									<p>Dev Bootcamp grad, developer with attitude - front, back, & full stack <em>JACK!</em> See the <a href="#!">coding skills</a> that occupy the brain waves. Always working towards new techniques, learning more, and living out of the comfort zone.</p>
-									<p class="text-center"><a href="http://spencerrohan.dev/assets/docs/spencerrohanresume.pdf">Resume</a> 	&#x25b0; <a href="#!" target="_blank">Github</a> 	&#x25b0; <a href="#!">Portfolio</a> 	&#x25b0; <a href="#">Linkedin</a></p>
+									<p class="text-center"><a href="/assets/docs/spencerrohanresume.pdf">Resume</a> 	&#x25b0; <a href="https://github.com/spencerrohan" target="_blank">Github</a> 	&#x25b0; <a href="#!">Portfolio</a> 	&#x25b0; <a href="https://www.linkedin.com/in/spencerrohan">Linkedin</a></p>
 									<hr>
 									<div class="col-lg-12">
-										<div class="col-lg-3 push-lg-1">
+										<div class="col-md-3 push-md-1">
 											<blockquote class="border-none text-center">
 										  	<p class="glamocon available-face" style="margin-bottom: -16px;">M</p>
-										  	<p class="filmotypelasalle"><a class="available-link" href="http://spencerrohan.dev/assets/docs/spencerrohanresume.pdf">Available Now!</a></p>
+										  	<p class="filmotypelasalle"><a class="available-link" href="/assets/docs/spencerrohanresume.pdf">Available Now!</a></p>
 											</blockquote>
 										</div>
-										<div class="col-lg-6 push-lg-1">
+										<div class="col-md-6 push-md-1">
 											<blockquote class="border-none">
 										  	<p class="text-center" style=" margin-bottom: 0;">Spencer is now looking for a new developer job. That's right - reach out today to get your hands on this eager and hardworking fellow! </p>
 										  	<ul class="icon-list text-center">
-													<?php social(array('mail', 'phone')); ?>
+													<?php social(array('mail-work', 'phone')); ?>
 												</ul>
 											</blockquote>
 										</div>
@@ -193,11 +194,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						
-						<span class="contact-info">
+						<hr>
+						<p class="contact-info">
 						SpencerMRohan@gmail.com<br>
 						Resume 	&#x25b0; Site Map
-						</span><span class="artist-info"><i class="fa fa-paint-brush fa-1" aria-hidden="true"></i> <?php echo $artist_info; ?></span>
+						</p>
+						<p class="artist-info"><i class="fa fa-paint-brush fa-1" aria-hidden="true"></i> <?php echo $artist_info; ?></p>
 					</div>
 				</div>
 			</div>
