@@ -104,15 +104,29 @@
 									<div class="parallax"><img src="<?php echo $url.$image[1] ?>"></div>
 								</div>
 								<section class="content-details">
-									<p>Closing down all the video stores was just the beginning. Now gripping, lighting, props, editing, directing, & producing are all part of his arsonal.  A decade in the making -- there is no stopping Spencer!</p>
+									<p>When they closed down all the video stores, it was just the beginning. Film school couldn't hold him. It's when they made him an IATSE member, it became personal. Now he's out for blood gripping to writing - props to producing, there's no stopping him <em>THIS TIME</em>.</p>
 									<p class="text-center">
 										<a href="#!">Demo Reel</a> &#x25b0; <a href="http://vimeo.com/spencerrohan" target="_blank">Vimeo</a>	&#x25b0; <a href="http://www.imdb.com/name/nm1804974/" target="_blank">IMDB</a></p>
 									<hr>
-									<div class="col-lg-12">
-										VIDEO WILL GO HERE
+
+									
+									<div class="row">
+										<div class="col-md-4 col-sm-12">
+											<a id="spot-video1" href="!#" data-toggle="modal" data-target="#mvid1" data-title="Hollus - \"Rally Cry\" | Music Video"><img src="https://i.vimeocdn.com/video/74397815_640.webp" height="100px" width="auto" alt="hollus">
+											</a>
+										</div>
+										<div class="col-md-4 col-sm-12">
+											<a id="spot-video2" href="!#" data-toggle="modal" data-target="#mvid2" data-title="Ben & Jerry's \"Super Cow\"- Spot"><img src="https://i.vimeocdn.com/video/45731799_640.webp" height="100px" width="auto" alt="cow">
+											</a>
+										</div>
+										<div class="col-md-4 col-sm-12">
+											<a id="spot-video3" href="!#" data-toggle="modal" data-target="#mvid3" data-title="Latest Show Ever - Chicago Outfit TV Pilot"><img src="https://i.vimeocdn.com/video/22234698_640.webp" height="100px" width="auto" alt="outfit">
+											</a>
+										</div>
+										
 									</div>
-									<div class="col-lg-8 push-lg-2">
 									<hr class="clear-both">
+									<div class="col-lg-8 push-lg-2">
 										<blockquote class="blockquote border-none text-center">
 									  	<p class="mb-0 filmotypelasalle" style=" margin-bottom: 0; font-family:'FilmotypeLaSalle'">"Aaarg arrrragh arrr huraa arg."</p>
 									  	<div class="blockquote-footer">Chewbacca | Spirit Animal</div>
@@ -128,13 +142,13 @@
 								</div>
 								<section class="content-details">
 									<p>Dev Bootcamp grad, developer with attitude - front, back, & full stack <em>JACK!</em> See the <a href="#!">coding skills</a> that occupy the brain waves. Always working towards new techniques, learning more, and living out of the comfort zone.</p>
-									<p class="text-center"><a href="/assets/docs/spencerrohanresume.pdf">Resume</a> 	&#x25b0; <a href="https://github.com/spencerrohan" target="_blank">Github</a> 	&#x25b0; <a href="#!">Portfolio</a> 	&#x25b0; <a href="https://www.linkedin.com/in/spencerrohan">Linkedin</a></p>
+									<p class="text-center"><a href="/assets/docs/SpencerRohanResume.pdf">Resume</a> 	&#x25b0; <a href="https://github.com/spencerrohan" target="_blank">Github</a> 	&#x25b0; <a href="#!">Portfolio</a> 	&#x25b0; <a href="https://www.linkedin.com/in/spencerrohan">Linkedin</a></p>
 									<hr>
 									<div class="col-lg-12">
 										<div class="col-md-3 push-md-1">
 											<blockquote class="border-none text-center">
 										  	<p class="glamocon available-face" style="margin-bottom: -16px;">M</p>
-										  	<p class="filmotypelasalle"><a class="available-link" href="/assets/docs/spencerrohanresume.pdf">Available Now!</a></p>
+										  	<p class="filmotypelasalle"><a class="available-link" href="/assets/docs/SpencerRohanResume.pdf">Available Now!</a></p>
 											</blockquote>
 										</div>
 										<div class="col-md-6 push-md-1">
@@ -172,7 +186,8 @@
 				</div>
 			</div>
 		</main>
-		
+
+		<?php include 'includes/modalvideos.php' ?>
 		<!-- Scripts -->
 		<script type="text/javascript" src="assets/js/app.js"></script>
 
@@ -184,7 +199,7 @@
 						<hr>
 						<p class="contact-info">
 							<a href="mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site">SpencerMRohan@gmail.com</a><br>
-							<a href="/assets/docs/spencerrohanresume.pdf">Resume</a> 	&#x25b0; Site Map
+							<a href="/assets/docs/SpencerRohanResume.pdf">Resume</a> 	&#x25b0; Site Map
 						</p>
 						<p class="artist-info"><i class="fa fa-paint-brush fa-1" aria-hidden="true"></i> <?php echo $artist_info; ?></p>
 					</div>
