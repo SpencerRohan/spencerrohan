@@ -30,6 +30,11 @@ $( document ).ready(function() {
 
     $('.parallax').parallax();
 
+    $('#exampleModal').on('hide.bs.modal', function (e) {
+      var src = $('#modal-video').attr('src');
+      $('#modal-video').attr('src', src);
+    })
+
     $(document).on('click', '.main-anchors-lg .anchor-link', function(event) { 
         event.preventDefault();
         var link    = $(this).data('link'),

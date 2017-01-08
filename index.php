@@ -104,15 +104,22 @@
 									<div class="parallax"><img src="<?php echo $url.$image[1] ?>"></div>
 								</div>
 								<section class="content-details">
-									<p>Closing down all the video stores was just the beginning. Now gripping, lighting, props, editing, directing, & producing are all part of his arsonal.  A decade in the making -- there is no stopping Spencer!</p>
+									<p>When they closed down all the video stores, it was just the beginning. Film school couldn't hold him. It's when they made him an IATSE member, it became personal. Now he's out for blood gripping to writing - props to producing, there's no stopping him <em>THIS TIME</em>.</p>
 									<p class="text-center">
 										<a href="#!">Demo Reel</a> &#x25b0; <a href="http://vimeo.com/spencerrohan" target="_blank">Vimeo</a>	&#x25b0; <a href="http://www.imdb.com/name/nm1804974/" target="_blank">IMDB</a></p>
 									<hr>
+
+									
+<a href="!#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+  Launch demo modal
+</a>
+
+
 									<div class="col-lg-12">
-										VIDEO WILL GO HERE
+										n
 									</div>
-									<div class="col-lg-8 push-lg-2">
 									<hr class="clear-both">
+									<div class="col-lg-8 push-lg-2">
 										<blockquote class="blockquote border-none text-center">
 									  	<p class="mb-0 filmotypelasalle" style=" margin-bottom: 0; font-family:'FilmotypeLaSalle'">"Aaarg arrrragh arrr huraa arg."</p>
 									  	<div class="blockquote-footer">Chewbacca | Spirit Animal</div>
@@ -172,6 +179,55 @@
 				</div>
 			</div>
 		</main>
+
+		<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									  <div class="modal-dialog" role="document">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+									        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									          <span aria-hidden="true">&times;</span>
+									        </button>
+									      </div>
+									      <div class="modal-body">
+									        <form>
+									          <div class="form-group">
+									            <label for="recipient-name" class="form-control-label">Recipient:</label>
+									            <input type="text" class="form-control" id="recipient-name">
+									          </div>
+									          <div class="form-group">
+									            <label for="message-text" class="form-control-label">Message:</label>
+									            <textarea class="form-control" id="message-text"></textarea>
+									          </div>
+									        </form>
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									        <button type="button" class="btn btn-primary">Send message</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>
+ -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe id="modal-video" src="https://player.vimeo.com/video/9277737?autoplay=0&title=0&byline=0&portrait=0" width="100%" height="300px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary btn-sm" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 		
 		<!-- Scripts -->
 		<script type="text/javascript" src="assets/js/app.js"></script>
