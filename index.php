@@ -106,21 +106,21 @@
 								<section class="content-details">
 									<p>When they closed down all the video stores, it was just the beginning. Film school couldn't hold him. It's when they made him an IATSE member, it became personal. Now he's out for blood gripping to writing - props to producing, there's no stopping him <em>THIS TIME</em>.</p>
 									<p class="text-center">
-										<a href="#!">Demo Reel</a> &#x25b0; <a href="http://vimeo.com/spencerrohan" target="_blank">Vimeo</a>	&#x25b0; <a href="http://www.imdb.com/name/nm1804974/" target="_blank">IMDB</a></p>
+										<a id="spot-video-demo" href="#!demo" data-toggle="modal" data-target="#mviddemo" data-title="Spencer Rohan | Demo Reel">Demo Reel</a> &#x25b0; <a href="http://vimeo.com/spencerrohan" target="_blank">Vimeo</a>	&#x25b0; <a href="http://www.imdb.com/name/nm1804974/" target="_blank">IMDB</a></p>
 									<hr>
 
 									
 									<div class="row">
 										<div class="col-md-4 col-sm-12">
-											<a id="spot-video1" href="!#" data-toggle="modal" data-target="#mvid1" data-title="Hollus - \"Rally Cry\" | Music Video"><img src="https://i.vimeocdn.com/video/74397815_640.webp" height="100px" width="auto" alt="hollus">
+											<a id="spot-video-1" href="#!spot-video" data-toggle="modal" data-target="#mvid1" data-title="Hollus - \"Rally Cry\" | Music Video"><img src="assets/imgs/covers/rally-cry.jpg" height="100px" width="auto" alt="Hollus Music Video">
 											</a>
 										</div>
 										<div class="col-md-4 col-sm-12">
-											<a id="spot-video2" href="!#" data-toggle="modal" data-target="#mvid2" data-title="Ben & Jerry's \"Super Cow\"- Spot"><img src="https://i.vimeocdn.com/video/45731799_640.webp" height="100px" width="auto" alt="cow">
+											<a id="spot-video-2" href="!#spot-video" data-toggle="modal" data-target="#mvid2" data-title="Ben & Jerry's \"Super Cow\"- Spot"><img src="assets/imgs/covers/super-cow.jpg" height="100px" width="auto" alt="Ben & Jerry's Spot">
 											</a>
 										</div>
 										<div class="col-md-4 col-sm-12">
-											<a id="spot-video3" href="!#" data-toggle="modal" data-target="#mvid3" data-title="Latest Show Ever - Chicago Outfit TV Pilot"><img src="https://i.vimeocdn.com/video/22234698_640.webp" height="100px" width="auto" alt="outfit">
+											<a id="spot-video-3" href="#!spot-video" data-toggle="modal" data-target="#mvid3" data-title="Latest Show Ever - Chicago Outfit TV Pilot"><img src="assets/imgs/covers/outfit.jpg" height="100px" width="auto" alt="Latest Show Ever TV Pilot">
 											</a>
 										</div>
 										
@@ -177,7 +177,8 @@
 									<div class="parallax"><img src="<?php echo $url.$image[3] ?>"></div>
 								</div>
 								<section class="content-details">
-									<br><h4 class="text-center filmotypelasalle">Coming Soon!</h4>
+									<img src="assets/imgs/underconstruction.png" height="130px" width="auto" alt="Under Construction - Coming Soon">
+									<h4 class="text-center filmotypelasalle">Coming Soon!</h4>
 								</section>
 							</article>
 

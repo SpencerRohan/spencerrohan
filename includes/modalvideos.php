@@ -9,7 +9,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <iframe id="modal-video" src="https://player.vimeo.com/video/10994700?autoplay=0&title=0&byline=0&portrait=0" width="100%" height="300px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe id="modal-video1" src="https://player.vimeo.com/video/10994700?autoplay=0&title=0&byline=0&portrait=0" width="100%" height="300px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-primary btn-sm" data-dismiss="modal">Close</button>
@@ -29,7 +29,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <iframe id="modal-video" src="https://player.vimeo.com/video/9277737?autoplay=0&title=0&byline=0&portrait=0" width="100%" height="300px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe id="modal-video2" src="https://player.vimeo.com/video/9277737?autoplay=0&title=0&byline=0&portrait=0" width="100%" height="300px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-primary btn-sm" data-dismiss="modal">Close</button>
@@ -49,7 +49,27 @@
         </button>
       </div>
       <div class="modal-body">
-        <iframe id="modal-video" src="https://player.vimeo.com/video/6129998?autoplay=0&title=0&byline=0&portrait=0" width="100%" height="300px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe id="modal-video3" src="https://player.vimeo.com/video/6129998?autoplay=0&title=0&byline=0&portrait=0" width="100%" height="300px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary btn-sm" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Demo-->
+<div class="modal fade" id="mviddemo" tabindex="-1" role="dialog" aria-labelledby="modal-video4" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="demo-title">Spencer M. Rohan | Demo Reel</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe id="modal-video3" src="https://player.vimeo.com/video/18231699?autoplay=0&title=0&byline=0&portrait=0" width="100%" height="300px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-primary btn-sm" data-dismiss="modal">Close</button>

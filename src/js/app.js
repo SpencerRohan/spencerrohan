@@ -1,6 +1,4 @@
 $( document ).ready(function() {
-    console.log('Inspect me?! I barely know you! XOXO Spencer [SpencerMRohan@gmail.com]');
-
     function getUrlVars()
     {
         var vars = [], hash;
@@ -30,10 +28,12 @@ $( document ).ready(function() {
 
     $('.parallax').parallax();
 
-    $('#mvid1 #mvid2 #mvid3').on('hide.bs.modal', function (e) {
-      var src = $('#modal-video').attr('src');
-      $('#modal-video').attr('src', src);
-    })
+    $('#mvid1, #mvid2, #mvid3, #mviddemo').on('hide.bs.modal', function (e) {
+      var iframe = $(this).find('iframe'),
+          src = $(iframe).attr('src');
+
+      $(iframe).attr('src', src);
+    });
 
     $(document).on('click', '.main-anchors-lg .anchor-link', function(event) { 
         event.preventDefault();
