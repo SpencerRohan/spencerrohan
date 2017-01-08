@@ -110,13 +110,20 @@
 									<hr>
 
 									
-<a href="!#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
-  Launch demo modal
-</a>
-
-
-									<div class="col-lg-12">
-										n
+									<div class="row">
+										<div class="col-md-4 col-sm-12">
+											<a id="spot-video1" href="!#" data-toggle="modal" data-target="#mvid1" data-title="Hollus - \"Rally Cry\" | Music Video"><img src="https://i.vimeocdn.com/video/74397815_640.webp" height="100px" width="auto" alt="hollus">
+											</a>
+										</div>
+										<div class="col-md-4 col-sm-12">
+											<a id="spot-video2" href="!#" data-toggle="modal" data-target="#mvid2" data-title="Ben & Jerry's \"Super Cow\"- Spot"><img src="https://i.vimeocdn.com/video/45731799_640.webp" height="100px" width="auto" alt="cow">
+											</a>
+										</div>
+										<div class="col-md-4 col-sm-12">
+											<a id="spot-video3" href="!#" data-toggle="modal" data-target="#mvid3" data-title="Latest Show Ever - Chicago Outfit TV Pilot"><img src="https://i.vimeocdn.com/video/22234698_640.webp" height="100px" width="auto" alt="outfit">
+											</a>
+										</div>
+										
 									</div>
 									<hr class="clear-both">
 									<div class="col-lg-8 push-lg-2">
@@ -180,55 +187,7 @@
 			</div>
 		</main>
 
-		<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-									  <div class="modal-dialog" role="document">
-									    <div class="modal-content">
-									      <div class="modal-header">
-									        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-									        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									          <span aria-hidden="true">&times;</span>
-									        </button>
-									      </div>
-									      <div class="modal-body">
-									        <form>
-									          <div class="form-group">
-									            <label for="recipient-name" class="form-control-label">Recipient:</label>
-									            <input type="text" class="form-control" id="recipient-name">
-									          </div>
-									          <div class="form-group">
-									            <label for="message-text" class="form-control-label">Message:</label>
-									            <textarea class="form-control" id="message-text"></textarea>
-									          </div>
-									        </form>
-									      </div>
-									      <div class="modal-footer">
-									        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-									        <button type="button" class="btn btn-primary">Send message</button>
-									      </div>
-									    </div>
-									  </div>
-									</div>
- -->
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <iframe id="modal-video" src="https://player.vimeo.com/video/9277737?autoplay=0&title=0&byline=0&portrait=0" width="100%" height="300px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline-primary btn-sm" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-		
+		<?php include 'includes/modalvideos.php' ?>
 		<!-- Scripts -->
 		<script type="text/javascript" src="assets/js/app.js"></script>
 

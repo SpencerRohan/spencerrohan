@@ -30,7 +30,7 @@ $( document ).ready(function() {
 
     $('.parallax').parallax();
 
-    $('#exampleModal').on('hide.bs.modal', function (e) {
+    $('#mvid1 #mvid2 #mvid3').on('hide.bs.modal', function (e) {
       var src = $('#modal-video').attr('src');
       $('#modal-video').attr('src', src);
     })
