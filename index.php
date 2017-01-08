@@ -111,16 +111,31 @@
 
 									
 									<div class="row">
-										<div class="col-md-4 col-sm-12">
-											<a id="spot-video-1" href="#!spot-video" data-toggle="modal" data-target="#mvid1" data-title="Hollus - \"Rally Cry\" | Music Video"><img src="assets/imgs/covers/rally-cry.jpg" height="100px" width="auto" alt="Hollus Music Video">
+										<div class="col-md-4 col-xs-6">
+											<a id="spot-video-1" href="#!spot-video" data-toggle="modal" data-target="#mvid1" data-title="Hollus - \"Rally Cry\" | Music Video"><img src="assets/imgs/covers/rally-cry.jpg" height="75px" width="auto" alt="Hollus Music Video">
 											</a>
 										</div>
-										<div class="col-md-4 col-sm-12">
-											<a id="spot-video-2" href="!#spot-video" data-toggle="modal" data-target="#mvid2" data-title="Ben & Jerry's \"Super Cow\"- Spot"><img src="assets/imgs/covers/super-cow.jpg" height="100px" width="auto" alt="Ben & Jerry's Spot">
+										<div class="col-md-4 col-xs-6">
+											<a id="spot-video-2" href="!#spot-video" data-toggle="modal" data-target="#mvid2" data-title="Ben & Jerry's \"Super Cow\"- Spot"><img src="assets/imgs/covers/super-cow.jpg" height="75px" width="auto" alt="Ben & Jerry's Spot">
 											</a>
 										</div>
-										<div class="col-md-4 col-sm-12">
-											<a id="spot-video-3" href="#!spot-video" data-toggle="modal" data-target="#mvid3" data-title="Latest Show Ever - Chicago Outfit TV Pilot"><img src="assets/imgs/covers/outfit.jpg" height="100px" width="auto" alt="Latest Show Ever TV Pilot">
+										<div class="col-md-4 col-xs-6">
+											<a id="spot-video-3" href="#!spot-video" data-toggle="modal" data-target="#mvid3" data-title="Latest Show Ever - Chicago Outfit TV Pilot"><img src="assets/imgs/covers/outfit.jpg" height="75px" width="auto" alt="Latest Show Ever TV Pilot">
+											</a>
+										</div>
+										
+									
+									
+										<div class="col-md-4 col-xs-6">
+											<a id="spot-video-1" href="#!spot-video" data-toggle="modal" data-target="#mvid1" data-title="Hollus - \"Rally Cry\" | Music Video"><img src="assets/imgs/covers/rally-cry.jpg" height="75px" width="auto" alt="Hollus Music Video">
+											</a>
+										</div>
+										<div class="col-md-4 col-xs-6">
+											<a id="spot-video-2" href="!#spot-video" data-toggle="modal" data-target="#mvid2" data-title="Ben & Jerry's \"Super Cow\"- Spot"><img src="assets/imgs/covers/super-cow.jpg" height="75px" width="auto" alt="Ben & Jerry's Spot">
+											</a>
+										</div>
+										<div class="col-md-4 col-xs-6">
+											<a id="spot-video-3" href="#!spot-video" data-toggle="modal" data-target="#mvid3" data-title="Latest Show Ever - Chicago Outfit TV Pilot"><img src="assets/imgs/covers/outfit.jpg" height="75px" width="auto" alt="Latest Show Ever TV Pilot">
 											</a>
 										</div>
 										
