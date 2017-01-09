@@ -74,7 +74,7 @@
 								</div>
 
 								<section class="content-details">
-									<p>Digital playground for Time Magazine's "2006 Person of the Year", Spencer Rohan.  10+ years of filmmaking experience. Neighborhood web slinger. Professional Air Guitarist. Futurist, feminist, and recovering pop culture junkie.  As the <a href="https://en.wikipedia.org/wiki/Flying_Spaghetti_Monster" target="_blank" alt="Flying Spaghetti Monster">FSM</a> would put it...</p>
+									<p>Digital playground for Time Magazine's "2006 Person of the Year", Spencer Rohan.  10+ years of filmmaking experience. Neighborhood web slinger. Professional Air Guitarist. Futurist, feminist, and recovering pop culture junkie.  As the Flying Spaghetti Monster would put it...</p>
 									<p class="main-anchors-lg text-center">
 										<a href="?loc=#film" data-current="#first" data-link="#second" class="anchor-link">Filmmaker</a> &#x25b0; 
 										<a href="?loc=#web" data-current="#first" data-link="#third" class="anchor-link">Web Developer</a> &#x25b0; 
@@ -111,33 +111,31 @@
 
 									
 									<div class="row">
-										<div class="col-md-4 col-xs-6">
-											<a id="spot-video-1" href="#!spot-video" data-toggle="modal" data-target="#mvid1" data-title="Hollus - \"Rally Cry\" | Music Video"><img src="assets/imgs/covers/rally-cry.jpg" height="75px" width="auto" alt="Hollus Music Video">
+										<div class="col-md-4 col-xs-6 poster-still">
+											<a id="spot-video-1" href="#!spot-video" data-toggle="modal" data-target="#mvid1" data-title="Hollus - \"Rally Cry\" | Music Video"><img src="assets/imgs/covers/rally-cry.jpg" height="73px" width="auto" alt="Hollus Music Video">
 											</a>
 										</div>
-										<div class="col-md-4 col-xs-6">
-											<a id="spot-video-2" href="!#spot-video" data-toggle="modal" data-target="#mvid2" data-title="Ben & Jerry's \"Super Cow\"- Spot"><img src="assets/imgs/covers/super-cow.jpg" height="75px" width="auto" alt="Ben & Jerry's Spot">
+										<div class="col-md-4 col-xs-6 poster-still">
+											<a id="spot-video-2" href="!#spot-video" data-toggle="modal" data-target="#mvid2" data-title="Ben & Jerry's \"Super Cow\"- Spot"><img src="assets/imgs/covers/super-cow.jpg" height="73px" width="auto" alt="Ben & Jerry's Spot">
 											</a>
 										</div>
-										<div class="col-md-4 col-xs-6">
-											<a id="spot-video-3" href="#!spot-video" data-toggle="modal" data-target="#mvid3" data-title="Latest Show Ever - Chicago Outfit TV Pilot"><img src="assets/imgs/covers/outfit.jpg" height="75px" width="auto" alt="Latest Show Ever TV Pilot">
+										<div class="col-md-4 col-xs-6 poster-still">
+											<a id="spot-video-3" href="#!spot-video" data-toggle="modal" data-target="#mvid3" data-title="Latest Show Ever - Chicago Outfit TV Pilot"><img src="assets/imgs/covers/outfit.jpg" height="73px" width="auto" alt="Latest Show Ever TV Pilot">
 											</a>
 										</div>
-										
 									
-									
-										<!-- <div class="col-md-4 col-xs-6">
-											<a id="spot-video-1" href="#!spot-video" data-toggle="modal" data-target="#mvid1" data-title="Hollus - \"Rally Cry\" | Music Video"><img src="assets/imgs/covers/rally-cry.jpg" height="75px" width="auto" alt="Hollus Music Video">
+										<div class="col-md-4 col-xs-6 poster-still">
+											<a id="spot-video-1" href="#!spot-video" data-toggle="modal" data-target="#mvid1" data-title="Hollus - \"Rally Cry\" | Music Video"><img src="assets/imgs/covers/rally-cry.jpg" height="73px" width="auto" alt="Hollus Music Video">
 											</a>
 										</div>
-										<div class="col-md-4 col-xs-6">
-											<a id="spot-video-2" href="!#spot-video" data-toggle="modal" data-target="#mvid2" data-title="Ben & Jerry's \"Super Cow\"- Spot"><img src="assets/imgs/covers/super-cow.jpg" height="75px" width="auto" alt="Ben & Jerry's Spot">
+										<div class="col-md-4 col-xs-6 poster-still">
+											<a id="spot-video-2" href="!#spot-video" data-toggle="modal" data-target="#mvid2" data-title="Ben & Jerry's \"Super Cow\"- Spot"><img src="assets/imgs/covers/super-cow.jpg" height="73px" width="auto" alt="Ben & Jerry's Spot">
 											</a>
 										</div>
-										<div class="col-md-4 col-xs-6">
-											<a id="spot-video-3" href="#!spot-video" data-toggle="modal" data-target="#mvid3" data-title="Latest Show Ever - Chicago Outfit TV Pilot"><img src="assets/imgs/covers/outfit.jpg" height="75px" width="auto" alt="Latest Show Ever TV Pilot">
+										<div class="col-md-4 col-xs-6 poster-still">
+											<a id="spot-video-3" href="#!spot-video" data-toggle="modal" data-target="#mvid3" data-title="Latest Show Ever - Chicago Outfit TV Pilot"><img src="assets/imgs/covers/outfit.jpg" height="73px" width="auto" alt="Latest Show Ever TV Pilot">
 											</a>
-										</div> -->
+										</div>
 										
 									</div>
 									<hr class="clear-both">
