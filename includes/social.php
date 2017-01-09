@@ -43,7 +43,7 @@
 		foreach ($icons as $name)
 		{
 			$target = "target='_blank'";
-			if ($name == 'mail' || 'mail-work'){
+			if ($name == 'mail' || $name == 'mail-work'){
 				$target = "";
 			};
 
