@@ -22,6 +22,15 @@
       "https://www.instagram.com/criscocountyjr/",
       "https://plus.google.com/+SpencerRohan"
     ],
+  "homeLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago",
+      "addressRegion": "Illinois",
+      "addressCountry": "United States"
+    }
+  },
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Chicago",
