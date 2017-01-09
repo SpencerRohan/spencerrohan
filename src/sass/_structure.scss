@@ -35,7 +35,26 @@ hr { margin-left: 5rem; margin-right: 5rem; }
 .bariol-i { font-family: 'bariol_icons'; }
 .vollkorn { font-family: 'Vollkorn'; }
 
+/* Modal */
+.modal-content { 
+	background-color: $retro-white; 
+	a { color: $retro-red; }
+	.btn-outline-primary { color: $retro-black; }
+}
+
+.modal-title { float:left; }
+
 /* Buttons */
+
+.btn:focus,
+.btn:active, 
+a:focus, 
+a:active,
+button.close:focus, 
+button.colose:active {
+   outline: none !important;
+}
+
 .btn { border: 2px solid transparent; }
 
 .btn-primary:hover,
