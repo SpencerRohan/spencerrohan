@@ -155,7 +155,7 @@
 								</div>
 								<section class="content-details">
 									<p>Dev Bootcamp grad, developer with attitude - front, back, & full stack <em>JACK!</em> See the <a id="coding-skills" href="#!coding-skills" data-toggle="modal" data-target="#mdevskills" data-title="Developer Skills">coding skills</a> that occupy the brain waves. Always working towards new techniques, learning more, and living out of the comfort zone.</p>
-									<p class="text-center"><a href="/assets/docs/SpencerRohanResume.pdf">Resume</a> 	&#x25b0; <a href="https://github.com/spencerrohan" target="_blank">Github</a> 	&#x25b0; <a id="coding-skills" href="#!dev-portfolio" data-toggle="modal" data-target="#mdevportfolio" data-title="Developer Portfolio">Portfolio</a> 	&#x25b0; <a href="https://www.linkedin.com/in/spencerrohan">Linkedin</a></p>
+									<p class="text-center"><a href="/assets/docs/SpencerRohanResume.pdf">Resume</a> 	&#x25b0; <a href="https://github.com/spencerrohan" target="_blank">Github</a> 	&#x25b0; <a id="coding-skills" href="#!dev-portfolio" data-toggle="modal" data-target="#mdevportfolio" data-title="Developer Portfolio">Portfolio</a> 	&#x25b0; <a href="https://www.linkedin.com/in/spencerrohan" target="_blank">Linkedin</a></p>
 									<hr>
 									<div class="col-lg-12">
 										<div class="col-md-3 push-md-1">
