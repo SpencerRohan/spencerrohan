@@ -28,10 +28,9 @@ $( document ).ready(function() {
 
     $('.parallax').parallax();
 
-    $('#mvid1, #mvid2, #mvid3, #mviddemo').on('hide.bs.modal', function (e) {
+    $('#mvid1, #mvid2, #mvid3, #mvid4, #mvid5, #mvid6, #mviddemo').on('hide.bs.modal', function (e) {
       var iframe = $(this).find('iframe'),
           src = $(iframe).attr('src');
-
       $(iframe).attr('src', src);
     });
 
