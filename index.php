@@ -76,14 +76,14 @@
 								<section class="content-details">
 									<p>Digital playground for Time Magazine's "2006 Person of the Year", Spencer Rohan.  10+ years of filmmaking experience. Neighborhood web slinger. Professional Air Guitarist. Futurist, feminist, and recovering pop culture junkie.  As the Flying Spaghetti Monster would put it...</p>
 									<p class="main-anchors-lg text-center">
-										<a href="?loc=#film" data-current="#first" data-link="#second" class="anchor-link">Filmmaker</a> &#x25b0; 
-										<a href="?loc=#web" data-current="#first" data-link="#third" class="anchor-link">Web Developer</a> &#x25b0; 
-										<a href="?loc=#projects" data-current="#first" data-link="#projects" class="anchor-link">Tinkerer</a>
+										<a href="?loc=#film!" data-current="#first" data-link="#second" class="anchor-link">Filmmaker</a> &#x25b0; 
+										<a href="?loc=#web!" data-current="#first" data-link="#third" class="anchor-link">Web Developer</a> &#x25b0; 
+										<a href="?loc=#projects!" data-current="#first" data-link="#projects" class="anchor-link">Tinkerer</a>
 									</p>
 									<p class="main-anchors-sm text-center">
-										<a href="?loc=#film" class="anchor-link" data-link="#content-film">Filmmaker</a> &#x25b0; 
-										<a href="?loc=#web" class="anchor-link" data-link="#content-web">Web Developer</a> &#x25b0; 
-										<a href="?loc=#projects" class="anchor-link" data-link="#content-projects">Tinkerer</p>
+										<a href="?loc=#film!" class="anchor-link" data-link="#content-film">Filmmaker</a> &#x25b0; 
+										<a href="?loc=#web!" class="anchor-link" data-link="#content-web">Web Developer</a> &#x25b0; 
+										<a href="?loc=#projects!" class="anchor-link" data-link="#content-projects">Tinkerer</p>
 									<hr>
 									<ul class="icon-list text-center">
 										<?php social(array('all')); ?>
