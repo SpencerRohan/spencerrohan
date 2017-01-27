@@ -4,12 +4,14 @@
 	
 	$backgrounds = array(
 		'schridde' => $background_array,
-		'mccall' 	 => $background_array
+		'mccall' 	 => $background_array,
+		'cameron'  => $background_array
 	);
 
 	$artist = array(
-		'schridde' => "Charles Schridde &#x25b0; Motorola's 'House of the Future'",
-		'mccall' => "Robert McCall"
+		'schridde' => "Charles Schridde",
+		'mccall' => "Robert McCall",
+		'cameron' => "Lou Cameron"
 	);
 
 	$group = array_rand($backgrounds, 1);
