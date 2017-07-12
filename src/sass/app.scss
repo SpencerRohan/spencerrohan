@@ -1,3 +1,8 @@
+pre {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
 @import '_fonts.scss';
 @import '_vendor.scss';
 @import '_variables.scss';
