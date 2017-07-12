@@ -7,7 +7,7 @@
 			'google' 		=> 'https://plus.google.com/+SpencerRohan',
 			'vimeo' 		=> 'http://vimeo.com/spencerrohan',
 			'imdb' 			=> 'http://www.imdb.com/name/nm1804974/',
-			// 'instagram' => 'https://www.instagram.com/criscocountyjr/',
+			'instagram' => 'https://www.instagram.com/criscocountyjr/',
 			'mail'			=> 'mailto:spencermrohan@gmail.com?Subject=Saw%20your%20site',
 			'mail-work' => 'mailto:spencermrohan@gmail.com?Subject=Saw%20your%20resume',
 			'phone'			=> 'tel:2695993279'
