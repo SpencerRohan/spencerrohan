@@ -74,7 +74,7 @@
 								</div>
 
 								<section class="content-details">
-									<p>Digital playground for Time Magazine's "2006 Person of the Year", Spencer Rohan.  10+ years of filmmaking experience. Neighborhood web slinger. Professional Air Guitarist. Futurist, feminist, and recovering pop culture junkie.  As the Flying Spaghetti Monster would put it...</p>
+									<p>Digital playground for Time Magazine's "2006 Person of the Year", Spencer Rohan.  10+ years of filmmaking experience. Neighborhood web slinger. Professional Air Guitarist. Futurist, tinkerer, and recovering pop culture junkie.  As the Flying Spaghetti Monster would put it...</p>
 									<p class="main-anchors-lg text-center">
 										<a href="?loc=#film!" data-current="#first" data-link="#second" class="anchor-link">Filmmaker</a> &#x25b0; 
 										<a href="?loc=#web!" data-current="#first" data-link="#third" class="anchor-link">Web Developer</a> &#x25b0; 

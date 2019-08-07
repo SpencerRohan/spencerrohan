@@ -5,13 +5,13 @@
 	$backgrounds = array(
 		'schridde' => $background_array,
 		'mccall' 	 => $background_array,
-		'cameron'  => $background_array
+		// 'cameron'  => $background_array
 	);
 
 	$artist = array(
 		'schridde' => "Charles Schridde",
 		'mccall' => "Robert McCall",
-		'cameron' => "Lou Cameron"
+		// 'cameron' => "Lou Cameron"
 	);
 
 	$group = array_rand($backgrounds, 1);
