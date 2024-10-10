@@ -31,7 +31,7 @@ const config = {
           style={{ colorScheme: "light" }}
           className="bg-brand-vanilla bg-eames bg-repeat flex justify-center bg-opacity-50 text-black"
         >
-          <div className="w-full md:w-1/2 px-5 pt-20 rounded-xl">
+          <div className="w-full md:w-1/2 px-5 pt-20 rounded-xl" id="contact">
             <CurvedBox className="bg-white w-full mb-16">
               <h2 className="text-t2 mb-8 font-bold text-center">
                 Houston... We Have A Contact Form

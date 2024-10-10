@@ -13,7 +13,7 @@ const Home = () => {
       <IntroSection />
       <AtomicAcquirements />
       <div className="bg-brand-vanilla bg-eames bg-repeat pt-[200px] w-full flex flex-col gap-y-20 items-center bg-opacity-50">
-        <div className="w-full md:w-1/2 p-5 rounded-xl">
+        <div className="w-full md:w-1/2 p-5 rounded-xl" id="contact">
           <CurvedBox className="bg-white w-full h-full mb-32">
             <h2 className="text-t2 mb-8 font-bold text-center">
               Houston... We Have A Contact Form

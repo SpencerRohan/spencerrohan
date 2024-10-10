@@ -49,7 +49,6 @@ const ContactForm = () => {
 
   return (
     <form
-      id="contact"
       ref={formRef}
       onSubmit={handleSubmit(sendEmail)}
       className="space-y-4"

@@ -40,6 +40,18 @@ const AstroCanvas = () => {
     };
   }, [isTriggered]);
 
+  useEffect(() => {
+    if (isActive) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isActive]);
+
   return (
     <div ref={canvasRef} className="relative -mb-20 h-[450px]">
       <Canvas
