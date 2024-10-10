@@ -1,0 +1,52 @@
+{
+  "index": {
+    "title": "Overview",
+    "theme": {
+      "breadcrumb": false
+    }
+  },
+  "linkedin": {
+    "title": "Linkedin",
+    "href": "https://linkedin.com/in/spencerrohan",
+    "newWindow": true
+  },
+  "--": {
+    "type": "separator"
+  },
+  "freelance": {
+    "title": "Freelance Contractor"
+  },
+  "red-ventures": {
+    "title": "Red Ventures"
+  },
+  "rewards-network": {
+    "title": "Rewards Network"
+  },
+  "nerdery": {
+    "title": "Nerdery"
+  },
+  "schafer-condon-carter": {
+    "title": "Schafer Condon Carter"
+  },
+  "aar": {
+    "title": "AAR"
+  },
+  "envisionit": {
+    "title": "Envisionit"
+  },
+  "---": {
+    "type": "separator"
+  },
+  "iatse": {
+    "title": "IATSE Local 476"
+  },
+  "lite-it": {
+    "title": "Lite-It Grip Truck Rentals"
+  },
+  "wttw": {
+    "title": "WTTW/PBS"
+  },
+  "hollywood-video": {
+    "title": "Hollywood Video"
+  }
+}

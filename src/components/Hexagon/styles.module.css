@@ -1,0 +1,37 @@
+.hex {
+  --width: 76px;
+  --x-spacing: 4px;
+  --side-length: calc(var(--width) / 2 / cos(30deg));
+  --cap-y-scale: tan(30deg);
+  --cap-height: calc(var(--width) / 2 * var(--cap-y-scale));
+  --cap-unscaled-side-length: calc(var(--width) / sqrt(2));
+  --half-x-spacing: calc(var(--x-spacing) / 2);
+  --y-spacing: calc(var(--half-x-spacing) * sqrt(3));
+  --spacer-width: calc(var(--width) + var(--x-spacing));
+  @apply inline-block relative w-[var(--width)] h-[var(--side-length)] align-middle z-[1] bg-[#ff4f00];
+  margin: var(--cap-height) 0 0;
+}
+
+.hex a:hover {
+  @apply scale-75 transition-all;
+}
+
+.hex::before,
+.hex::after {
+  @apply block absolute z-[-1] w-[var(--cap-unscaled-side-length)] h-[var(--cap-unscaled-side-length)] bg-inherit;
+  content: "";
+  transform-origin: 0 0;
+  transform: scaleY(var(--cap-y-scale)) rotate(-45deg);
+}
+
+.hex::before {
+  @apply top-0;
+}
+
+.hex::after {
+  @apply top-[var(--side-length)];
+}
+
+.spacer {
+  @apply inline-block w-[var(--spacer-width)];
+}

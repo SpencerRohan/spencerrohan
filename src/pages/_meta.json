@@ -1,0 +1,14 @@
+{
+  "experience": {
+    "title": "Experience",
+    "type": "page"
+  },
+  "projects": {
+    "title": "Projects",
+    "type": "page"
+  },
+  "docs": {
+    "title": "Docs",
+    "type": "page"
+  }
+}

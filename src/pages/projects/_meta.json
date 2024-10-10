@@ -1,0 +1,35 @@
+{
+  "index": {
+    "title": "Overview",
+    "theme": {
+      "breadcrumb": false
+    }
+  },
+  "---": {
+    "type": "separator"
+  },
+  "recent": {
+    "title": "Recent"
+  },
+  "css-and-dynamic-displays": {
+    "title": "CSS & Dynamic Displays"
+  },
+  "sockets": {
+    "title": "Sockets"
+  },
+  "games": {
+    "title": "Games"
+  },
+  "hands-on": {
+    "title": "Hands On"
+  },
+  "----": {
+    "type": "separator"
+  },
+  "war-of-currents": {
+    "title": "War of Currents Playing Cards"
+  },
+  "latest-show-ever": {
+    "title": "The Latest Show Ever"
+  }
+}

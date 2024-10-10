@@ -1,11 +1,29 @@
-export default function Home() {
+import CurvedBox from "@/components/CurvedBox";
+import dynamic from "next/dynamic";
+import AtomicAcquirements from "./home/components/AtomicAcquirementsSection";
+import IntroSection from "./home/components/IntroSection";
+
+const ContactForm = dynamic(() => import("@/components/ContactForm"), {
+  ssr: false,
+});
+
+const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <h1 className="text-t1 md:text-t1-md lg:text-t1-lg">
-          Coming Soon | SpencerRohan.com
-        </h1>
+    <>
+      <IntroSection />
+      <AtomicAcquirements />
+      <div className="bg-brand-vanilla bg-eames bg-repeat pt-[200px] w-full flex flex-col gap-y-20 items-center bg-opacity-50">
+        <div className="w-full md:w-1/2 p-5 rounded-xl">
+          <CurvedBox className="bg-white w-full h-full mb-32">
+            <h2 className="text-t2 mb-8 font-bold text-center">
+              Houston... We Have A Contact Form
+            </h2>
+            <ContactForm />
+          </CurvedBox>
+        </div>
       </div>
-    </main>
+    </>
   );
-}
+};
+
+export default Home;

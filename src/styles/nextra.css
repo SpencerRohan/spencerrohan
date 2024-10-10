@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply !bg-brand-vanilla !bg-paper;
+}
+
+.nx-bg-white {
+  @apply !bg-brand-vanilla !shadow-none;
+}
+
+:is(html[class~="dark"] .nx-bg-white) {
+  @apply !bg-[#14242e] !bg-[image:none];
+}
+
+:is(html[class~="dark"] body) {
+  @apply !bg-[#14242e] !bg-[image:none];
+}
+
+:is(html[class~="dark"] .dark\:nx-bg-dark) {
+  @apply !bg-[#14242e] !shadow-none;
+}
+:is(html[class~="dark"] .dark\:nx-border-neutral-800) {
+  @apply !bg-[#14242e];
+}
+
+@supports ((-webkit-backdrop-filter: blur(1px))) or
+  ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+  :is(html[class~="dark"] .nextra-nav-container-blur) {
+    background-color: rgb(21 36 46) !important;
+  }
+}
+
+h1 {
+  @apply text-t1 font-bold;
+}
+
+* {
+  @apply font-roboto text-body;
+  scrollbar-width: auto;
+  scrollbar-color: #ff4f00 transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ff4f00;
+  border-radius: 10px;
+  border: 3px solid transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply !font-ar uppercase;
+}
+
+@media (max-width: 767px) {
+  .nextra-sidebar-container {
+    @apply !bg-brand-vanilla;
+  }
+
+  :is(html[class~="dark"] .nextra-sidebar-container) {
+    @apply !bg-[#14242e];
+  }
+}

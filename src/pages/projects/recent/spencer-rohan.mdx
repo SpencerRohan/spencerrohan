@@ -1,0 +1,140 @@
+import AstroCanvas from "@/components/AstroCanvas";
+import Image from "next/image";
+
+# SpencerRohan.com
+
+- Summary: 2024 portfolio for my stuff!
+- Github: N/A
+- Link: You are here already!
+
+## Overview
+
+The biggest issue with a developer portfolio is that it's out of date basically as soon as you deploy it. The only difference between a developer's portfolio and say a company website is, the developer is only available to build one and not the other! I noticed my old site was feeling a bit dated, and was built in not what I work in day to day.
+
+The other issue is that if I wanted to keep my portfolio showcasing awesome things, it was a day or 2 just to link info and get it out to the masses. This is why I opted for Nextra, not quite a cms, but it does give me a quick framework to give the readers the baseline info fast!
+
+## Old Busted
+
+The previous site, while doing a decent job, was just not holding up to my own personal tastes. It was built in PHP, it had some decent css, but the projects just didn't shine through. It did have some cleverness with art, that would randomize in giant big bubbles. It also showcased who I was, not who I want to be.
+
+<div className="flex w-full flex-col gap-4 my-4">
+<Image
+  src="/projects/sr-legacy.png"
+  alt="Legacy site for SpencerRohan.com"
+  width={500}
+  height={500}
+  className="w-1/2"
+/>
+
+<Image
+  src="/projects/sr-legacy2.png"
+  alt="Legacy site for SpencerRohan.com, showcasing about page"
+  width={500}
+  height={500}
+  className="w-1/2"
+/>
+</div>
+
+## Features
+
+### Next & Netlify
+
+Moved my hosting to Netlify, highly recommended for porfolio use. Especially if you are using NextJS. I'm actually using the app router for the main pages of the site, and the page router for Nextra, which I find is a nice seperation for documentation.
+
+### Parallax Hero
+
+Using AI I crafted a mountain backdrop and foreground characters. Using AdobeCC I then modified to add halftones and additional touch ups. I then seperated them to combine again using react-scroll-parallax. My first site used parallax and I wanted to keep that going!
+
+#### Layers
+
+<div className="flex w-full flex-col gap-4">
+  <Image
+    src="/imgs/hero/foreground.png"
+    alt="Man and Woman"
+    width={500}
+    height={500}
+    className="w-1/2"
+  />
+  <Image
+    src="/imgs/hero/background.png"
+    alt="deserte backdrop"
+    width={500}
+    height={500}
+    className="w-1/2"
+  />
+</div>
+
+### 3D Astro Toy
+
+Built with ThreeJS, this was my first dive into the framework. I really enjoyed it. I did get a little bit of a lift from an existing project, but I worked through swapping out the 3D model and adjusting colors and lighting. On the site, you'll see I had to overcome some additional elements in the surrounding atmosphere. This was the tricky part, using css to help me along the way!
+
+- Includes a scroll position listener to fire when user has astro in frame
+- Includes grab css on the astro itself
+
+<div className="relative h-[450px] max-h-full w-full my-4" aria-hidden="true">
+  <AstroCanvas />
+</div>
+
+### Hexagons
+
+Wanted to show off some flexbox action of course. Hexagons are always a bit of a funny creature when it comes to css. Not only do Hexagons match that 50s/60s NASA vibe I got going, but it hopefully showcases some advanced usage.
+
+One thing I had to work around was that if I made the 2 batches of hex groups as a single layer, the astronaut would not be clickable and would not bounce behind the icons. I'll let you at home work through how I may have done that! It's a fun thought experiment.
+
+- Please also note the awsome torn page effect happening on either side of this section! That too was fun coordinating.
+
+<div className="flex w-full flex-col gap-4 my-4 items-center">
+  <Image
+    src="/projects/hex.png"
+    alt="Man and Woman"
+    width={500}
+    height={500}
+    className="w-1/2"
+  />
+  <Image
+    src="/projects/hex-sm.png"
+    alt="Man and Woman"
+    width={500}
+    height={500}
+    className="w-1/2"
+  />
+</div>
+
+### Eames Texture
+
+Who doesn't love the Eames dot pattern?! I wanted to not only include this great piece of American culture, but I had to create the repeating texture myself. I could not find a stable enough texture to use. Using Photoshop's repeated pattern tooling, I was able to modify what I could scrape from the internet to make a usable patch!
+
+<div className="bg-white w-1/2 my-4">
+  <Image
+    src="/backgrounds/eames.png"
+    alt="deserte backdrop"
+    width={500}
+    height={500}
+    className="w-full"
+  />
+</div>
+
+## Technology
+
+- Next.js
+- React
+- Typescript
+- Tailwind
+- HTML
+- CSS
+- Javascript
+- Nextra
+- Three.js
+- react-hook-form
+- react-scroll-parallax
+- EmailJS
+- Photoshop
+- AI (some images)
+
+## Takeaways
+
+N/A
+
+## Notes
+
+- Be kind when judging portfolios, us devs are often busy on client work!!
