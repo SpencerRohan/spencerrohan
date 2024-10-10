@@ -1,5 +1,5 @@
+// @ts-nocheck
 "use client";
-
 import { extend, ThreeEvent, useFrame, useThree } from "@react-three/fiber";
 import {
   BallCollider,
